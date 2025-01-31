@@ -1,0 +1,166 @@
+{
+    "w_diet_coke": {
+        "stock": 500,
+        "price": 5
+    },
+    "chocolate_chunk_brownie": {
+        "stock": 500,
+        "price": 5
+    },
+    "triple_meal_deal": {
+        "stock": 500,
+        "price": 5
+    },
+    "boneless_meal_deal": {
+        "stock": 500,
+        "price": 5
+    },
+    "w_medium_fanta_orange": {
+        "stock": 500,
+        "price": 5
+    },
+    "chicken_caesar_salad": {
+        "stock": 500,
+        "price": 5
+    },
+    "w_medium_sprite": {
+        "stock": 500,
+        "price": 5
+    },
+    "thigh_bites_combo": {
+        "stock": 500,
+        "price": 5
+    },
+    "side_of_flavor": {
+        "stock": 500,
+        "price": 5
+    },
+    "bites_group_pack": {
+        "stock": 500,
+        "price": 5
+    },
+    "cajun_fried_corn": {
+        "stock": 500,
+        "price": 5
+    },
+    "cheese_fries": {
+        "stock": 500,
+        "price": 5
+    },
+    "w_tango_apple": {
+        "stock": 500,
+        "price": 5
+    },
+    "w_diet_pepsi": {
+        "stock": 500,
+        "price": 5
+    },
+    "meal_for_two": {
+        "stock": 500,
+        "price": 5
+    },
+    "chicken_and_waffles": {
+        "stock": 500,
+        "price": 5
+    },
+    "crispy_tenders": {
+        "stock": 500,
+        "price": 5
+    },
+    "fresh_baked_rolls": {
+        "stock": 500,
+        "price": 5
+    },
+    "party_pack": {
+        "stock": 500,
+        "price": 5
+    },
+    "wing_combo": {
+        "stock": 500,
+        "price": 5
+    },
+    "large_thigh_bites": {
+        "stock": 500,
+        "price": 5
+    },
+    "w_ice_cola": {
+        "stock": 500,
+        "price": 5
+    },
+    "korean_q_wings": {
+        "stock": 500,
+        "price": 5
+    },
+    "cheese_sauce": {
+        "stock": 500,
+        "price": 5
+    },
+    "crispy_tender_combo": {
+        "stock": 500,
+        "price": 5
+    },
+    "w_dr_pepper": {
+        "stock": 500,
+        "price": 5
+    },
+    "veggie_sticks": {
+        "stock": 500,
+        "price": 5
+    },
+    "group_pack": {
+        "stock": 500,
+        "price": 5
+    },
+    "boneless_wings": {
+        "stock": 500,
+        "price": 5
+    },
+    "wingstop_dips": {
+        "stock": 500,
+        "price": 5
+    },
+    "tender_pack": {
+        "stock": 500,
+        "price": 5
+    },
+    "w_tango_orange": {
+        "stock": 500,
+        "price": 5
+    },
+    "hot_chicken_wrap": {
+        "stock": 500,
+        "price": 5
+    },
+    "louisiana_voodoo_fries": {
+        "stock": 500,
+        "price": 5
+    },
+    "buffalo_ranch_fries": {
+        "stock": 500,
+        "price": 5
+    },
+    "classic_wings_combo": {
+        "stock": 500,
+        "price": 5
+    },
+    "thirty_crispy_tenders": {
+        "stock": 500,
+        "price": 5
+    },
+    "hundred_wings": {
+        "stock": 500,
+        "price": 5
+    },
+    "seasoned_fries": {
+        "stock": 500,
+        "price": 5
+    },
+    "w_medium_fanta_strawberry": {
+        "stock": 500,
+        "price": 5
+    },
+    "garlic_parm_wings": {
+        "stock": 500,
+        "price": 5
+    }
+}

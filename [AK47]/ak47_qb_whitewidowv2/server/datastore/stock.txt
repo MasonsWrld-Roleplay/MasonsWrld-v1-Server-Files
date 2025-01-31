@@ -1,0 +1,346 @@
+{
+    "fine_china": {
+        "stock": 299,
+        "price": 2500
+    },
+    "cake_mix_joint": {
+        "stock": 339,
+        "price": 500
+    },
+    "runtz_og_joint": {
+        "stock": 289,
+        "price": 500
+    },
+    "cheetah_piss_joint": {
+        "stock": 307,
+        "price": 500
+    },
+    "whitecherry_gelato_joint": {
+        "stock": 274,
+        "price": 500
+    },
+    "gary_payton": {
+        "stock": 283,
+        "price": 2500
+    },
+    "biscotti": {
+        "stock": 283,
+        "price": 2500
+    },
+    "marathon": {
+        "stock": 298,
+        "price": 2500
+    },
+    "paris_fog": {
+        "stock": 343,
+        "price": 500
+    },
+    "marathon_joint": {
+        "stock": 301,
+        "price": 500
+    },
+    "cookie_craze": {
+        "stock": 306,
+        "price": 500
+    },
+    "pogo": {
+        "stock": 302,
+        "price": 500
+    },
+    "butter_cookie": {
+        "stock": 343,
+        "price": 500
+    },
+    "marshmallow_crisp": {
+        "stock": 350,
+        "price": 500
+    },
+    "georgia_pie_joint": {
+        "stock": 245,
+        "price": 500
+    },
+    "cake_mix": {
+        "stock": 272,
+        "price": 2500
+    },
+    "froties_joint": {
+        "stock": 323,
+        "price": 500
+    },
+    "apple_gelato_joint": {
+        "stock": 255,
+        "price": 500
+    },
+    "tahoe_og": {
+        "stock": 293,
+        "price": 2500
+    },
+    "whitecherry_gelato": {
+        "stock": 299,
+        "price": 2500
+    },
+    "moon_rock_joint": {
+        "stock": 323,
+        "price": 500
+    },
+    "gelatti": {
+        "stock": 300,
+        "price": 2500
+    },
+    "backwoods_honey": {
+        "stock": 327,
+        "price": 500
+    },
+    "snow_man": {
+        "stock": 294,
+        "price": 2500
+    },
+    "blueberry_cruffin": {
+        "stock": 298,
+        "price": 2500
+    },
+    "gmo_cookies_joint": {
+        "stock": 283,
+        "price": 500
+    },
+    "ice_cream_cake_pack": {
+        "stock": 249,
+        "price": 2500
+    },
+    "cereal_milk": {
+        "stock": 289,
+        "price": 2500
+    },
+    "gelatti_joint": {
+        "stock": 272,
+        "price": 500
+    },
+    "key_lime_cookie": {
+        "stock": 339,
+        "price": 500
+    },
+    "oreoz": {
+        "stock": 309,
+        "price": 2500
+    },
+    "no_99": {
+        "stock": 333,
+        "price": 500
+    },
+    "marshmallow_og": {
+        "stock": 290,
+        "price": 2500
+    },
+    "ether": {
+        "stock": 299,
+        "price": 2500
+    },
+    "jefe_joint": {
+        "stock": 319,
+        "price": 500
+    },
+    "banana_backwoods": {
+        "stock": 324,
+        "price": 500
+    },
+    "vape": {
+        "stock": 299,
+        "price": 500
+    },
+    "shamrock_cookie": {
+        "stock": 277,
+        "price": 500
+    },
+    "blue_tomyz": {
+        "stock": 295,
+        "price": 2500
+    },
+    "pumpkin_cookie": {
+        "stock": 335,
+        "price": 500
+    },
+    "tahoe_og_joint": {
+        "stock": 279,
+        "price": 500
+    },
+    "ether_joint": {
+        "stock": 288,
+        "price": 500
+    },
+    "get_figgy": {
+        "stock": 348,
+        "price": 500
+    },
+    "blueberry_jam_cookie": {
+        "stock": 292,
+        "price": 500
+    },
+    "paxton_pearl_cigars": {
+        "stock": 340,
+        "price": 500
+    },
+    "froties": {
+        "stock": 294,
+        "price": 2500
+    },
+    "backwoods_russian_cream": {
+        "stock": 341,
+        "price": 500
+    },
+    "strawberry_jam_cookie": {
+        "stock": 343,
+        "price": 500
+    },
+    "lighter": {
+        "stock": 144,
+        "price": 500
+    },
+    "grabba_leaf": {
+        "stock": 342,
+        "price": 500
+    },
+    "fine_china_joint": {
+        "stock": 283,
+        "price": 500
+    },
+    "jefe": {
+        "stock": 275,
+        "price": 2500
+    },
+    "collins_ave_joint": {
+        "stock": 306,
+        "price": 500
+    },
+    "cheap_lighter": {
+        "stock": 298,
+        "price": 500
+    },
+    "sour_diesel_joint": {
+        "stock": 280,
+        "price": 500
+    },
+    "cheetah_piss": {
+        "stock": 314,
+        "price": 2500
+    },
+    "runtz_og": {
+        "stock": 298,
+        "price": 2500
+    },
+    "pirckly_pear_joint": {
+        "stock": 305,
+        "price": 500
+    },
+    "gary_payton_joint": {
+        "stock": 72,
+        "price": 500
+    },
+    "moon_rock": {
+        "stock": 278,
+        "price": 2500
+    },
+    "la_confidential": {
+        "stock": 285,
+        "price": 2500
+    },
+    "gmo_cookies": {
+        "stock": 298,
+        "price": 2500
+    },
+    "blue_tomyz_joint": {
+        "stock": 259,
+        "price": 500
+    },
+    "collins_ave": {
+        "stock": 291,
+        "price": 2500
+    },
+    "zushi": {
+        "stock": 277,
+        "price": 2500
+    },
+    "khalifa_kush": {
+        "stock": 298,
+        "price": 2500
+    },
+    "white_runtz_joint": {
+        "stock": 275,
+        "price": 500
+    },
+    "white_runtz": {
+        "stock": 295,
+        "price": 2500
+    },
+    "pirckly_pear": {
+        "stock": 286,
+        "price": 2500
+    },
+    "backwoods_grape": {
+        "stock": 307,
+        "price": 500
+    },
+    "snow_man_joint": {
+        "stock": 189,
+        "price": 500
+    },
+    "pink_sandy_joint": {
+        "stock": 332,
+        "price": 500
+    },
+    "georgia_pie": {
+        "stock": 286,
+        "price": 2500
+    },
+    "zushi_joint": {
+        "stock": 275,
+        "price": 500
+    },
+    "biscotti_joint": {
+        "stock": 258,
+        "price": 500
+    },
+    "oreoz_joint": {
+        "stock": 328,
+        "price": 500
+    },
+    "ice_cream_cake_pack_joint": {
+        "stock": 261,
+        "price": 500
+    },
+    "khalifa_kush_joint": {
+        "stock": 191,
+        "price": 500
+    },
+    "la_confidential_joint": {
+        "stock": 0,
+        "price": 500
+    },
+    "apple_gelato": {
+        "stock": 297,
+        "price": 2500
+    },
+    "raw_cone_king": {
+        "stock": 231,
+        "price": 500
+    },
+    "marshmallow_og_joint": {
+        "stock": 247,
+        "price": 500
+    },
+    "pink_sandy": {
+        "stock": 269,
+        "price": 2500
+    },
+    "sour_diesel": {
+        "stock": 299,
+        "price": 2500
+    },
+    "cereal_milk_joint": {
+        "stock": 243,
+        "price": 500
+    },
+    "blueberry_cruffin_joint": {
+        "stock": 273,
+        "price": 500
+    }
+}

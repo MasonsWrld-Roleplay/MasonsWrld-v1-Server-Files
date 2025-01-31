@@ -1,0 +1,6 @@
+Branding and photo changes
+-----------------------------------
+Interior logos and photo`s: brightdealership_shell.ytd
+Car livery: brightdealership_shell.ytd (prop_tampa2_livery2_dprop_tampa2_livery2_a
+-----------------------------------
+Exterior: ch3_01_build1.ytd  (rsl_bw_rexsigns)

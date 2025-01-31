@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    background:  transparent;
+}
+
+#vehicle-categories .form-check {
+    margin: 0.5rem;
+}
+
+#vehicles tr td:last-child {
+    text-align: center;
+}
+
+
+.card {
+    width: 90%;
+    max-width: 100%;
+    margin: 5vh auto;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+}
+
+#save-button {
+    width: 100%;
+    position: sticky;
+    bottom: 0;
+    padding: 10px;
+    background-color: #4CAF50; /* Your preferred color */
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#scrollable-content {
+    height: 50vh; /* adjust this value according to your needs */
+    overflow-y: auto;
+}
+
+#save-button:hover {
+    background-color: #45a049; /* Your preferred hover color */
+}
+
+.form-check-input-items {
+    position: relative;
+}
+
+.card-body-head {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.card-body-data {
+    padding-top: 0;
+}
+
+.container {
+    max-width: 2200px;
+}
+
+.mt-5, .my-5 {
+    margin-top: 1rem!important;
+}
+
+.th1 {
+    width: 73px;
+}.th2 {
+    width: 266px;
+}.th3 {
+    width: 202px;
+}.th4 {
+    width: 138px;
+}.th5 {
+    width: 245px;
+}
+
+.item-image {
+    width: 50px; /* or any other size */
+    height: auto;
+}

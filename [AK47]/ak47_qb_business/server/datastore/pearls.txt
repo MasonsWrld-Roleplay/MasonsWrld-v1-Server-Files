@@ -1,0 +1,114 @@
+{
+    "salmon_caesar_salad": {
+        "stock": 500,
+        "price": 5
+    },
+    "steak_and_lobster_meal": {
+        "stock": 500,
+        "price": 5
+    },
+    "shrimp_and_crab_dip": {
+        "stock": 500,
+        "price": 5
+    },
+    "baby_lobster_pasta": {
+        "stock": 500,
+        "price": 5
+    },
+    "oysters_half_shell": {
+        "stock": 500,
+        "price": 5
+    },
+    "patron_margarita": {
+        "stock": 500,
+        "price": 5
+    },
+    "ps_dr_pepper": {
+        "stock": 500,
+        "price": 5
+    },
+    "ps_coca_cola": {
+        "stock": 500,
+        "price": 5
+    },
+    "tropical_chicken_salad": {
+        "stock": 500,
+        "price": 5
+    },
+    "shrimp_alfredo": {
+        "stock": 500,
+        "price": 5
+    },
+    "ps_sprite": {
+        "stock": 500,
+        "price": 5
+    },
+    "glazed_salmon": {
+        "stock": 500,
+        "price": 5
+    },
+    "hennessy_shot": {
+        "stock": 500,
+        "price": 5
+    },
+    "pearls_coffee": {
+        "stock": 500,
+        "price": 5
+    },
+    "side_caesar_salad": {
+        "stock": 500,
+        "price": 5
+    },
+    "upeel_shrimp": {
+        "stock": 500,
+        "price": 5
+    },
+    "chicken_caesar_salad": {
+        "stock": 500,
+        "price": 5
+    },
+    "shells_clam_chowder": {
+        "stock": 500,
+        "price": 5
+    },
+    "shrimp_pasta": {
+        "stock": 500,
+        "price": 5
+    },
+    "catfish": {
+        "stock": 500,
+        "price": 5
+    },
+    "gourmet_double_burger": {
+        "stock": 500,
+        "price": 5
+    },
+    "crab_cakes": {
+        "stock": 500,
+        "price": 5
+    },
+    "dom_perignon": {
+        "stock": 500,
+        "price": 5
+    },
+    "tilapia_fish_meal": {
+        "stock": 500,
+        "price": 5
+    },
+    "lobster_bisque": {
+        "stock": 500,
+        "price": 5
+    },
+    "fried_scallops": {
+        "stock": 500,
+        "price": 5
+    },
+    "fried_mushrooms": {
+        "stock": 500,
+        "price": 5
+    },
+    "crab_legs_meal": {
+        "stock": 500,
+        "price": 5
+    }
+}

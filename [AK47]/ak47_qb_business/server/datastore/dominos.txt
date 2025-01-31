@@ -1,0 +1,106 @@
+{
+    "philly_cheese_steak": {
+        "stock": 500,
+        "price": 350
+    },
+    "d_dr_pepper": {
+        "stock": 500,
+        "price": 150
+    },
+    "memphis_bbq_chicken": {
+        "stock": 500,
+        "price": 350
+    },
+    "d_fruit_punch": {
+        "stock": 500,
+        "price": 350
+    },
+    "spinach_feta": {
+        "stock": 500,
+        "price": 350
+    },
+    "chicken_habanero": {
+        "stock": 500,
+        "price": 250
+    },
+    "mediterranean_veggie": {
+        "stock": 500,
+        "price": 250
+    },
+    "buffalo_chicken": {
+        "stock": 500,
+        "price": 350
+    },
+    "d_fanta_orange": {
+        "stock": 500,
+        "price": 150
+    },
+    "extra_vagan_zza": {
+        "stock": 500,
+        "price": 350
+    },
+    "d_sprite": {
+        "stock": 500,
+        "price": 150
+    },
+    "honolulu_hawaiian": {
+        "stock": 500,
+        "price": 350
+    },
+    "chicken_carbonara": {
+        "stock": 500,
+        "price": 250
+    },
+    "philly_cheese_sandwich": {
+        "stock": 500,
+        "price": 250
+    },
+    "p_chicken_alfredo": {
+        "stock": 500,
+        "price": 250
+    },
+    "ultimate_pepperoni": {
+        "stock": 500,
+        "price": 350
+    },
+    "pasta_primavera": {
+        "stock": 500,
+        "price": 250
+    },
+    "wisconsin_cheese": {
+        "stock": 500,
+        "price": 350
+    },
+    "italian_sandwich": {
+        "stock": 500,
+        "price": 250
+    },
+    "pizza_deluxe": {
+        "stock": 500,
+        "price": 350
+    },
+    "italian_sausage_marinara": {
+        "stock": 500,
+        "price": 250
+    },
+    "cali_chicken_bacon": {
+        "stock": 500,
+        "price": 350
+    },
+    "meat_zza": {
+        "stock": 500,
+        "price": 350
+    },
+    "pacific_veggie": {
+        "stock": 500,
+        "price": 350
+    },
+    "chicken_bacon_ranch": {
+        "stock": 500,
+        "price": 250
+    },
+    "d_coca_cola": {
+        "stock": 500,
+        "price": 150
+    }
+}

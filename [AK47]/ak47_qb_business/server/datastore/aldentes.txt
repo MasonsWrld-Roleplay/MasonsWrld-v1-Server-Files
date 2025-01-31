@@ -1,0 +1,26 @@
+{
+    "fries": {
+        "stock": 500,
+        "price": 5
+    },
+    "vodka": {
+        "stock": 500,
+        "price": 5
+    },
+    "meatball": {
+        "stock": 500,
+        "price": 5
+    },
+    "fried_calamari": {
+        "stock": 500,
+        "price": 5
+    },
+    "buffalo_chicken_strips": {
+        "stock": 500,
+        "price": 5
+    },
+    "mozzarella_sticks": {
+        "stock": 500,
+        "price": 5
+    }
+}

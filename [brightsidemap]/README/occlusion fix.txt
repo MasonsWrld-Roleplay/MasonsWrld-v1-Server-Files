@@ -1,0 +1,2 @@
+If u have the gabz package it can mess with the occlusion of these houses, if u move the 2 occlusion files into ur gabz package 
+[gabz]--[cfx-gabz-mapdata]--[stream]--[gabz-occlusion] it should fix this issue.

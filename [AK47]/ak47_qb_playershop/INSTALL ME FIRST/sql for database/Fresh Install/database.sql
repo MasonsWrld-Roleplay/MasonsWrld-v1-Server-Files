@@ -1,0 +1,26 @@
+DROP TABLE IF EXISTS `ak47_qb_playershop`;
+CREATE TABLE IF NOT EXISTS `ak47_qb_playershop` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `owner` varchar(100) CHARACTER SET utf8mb4 COLLATE utf8mb4_bin DEFAULT NULL,
+  `name` varchar(100) CHARACTER SET utf8mb4 COLLATE utf8mb4_bin NOT NULL,
+  `buysell` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_bin NOT NULL,
+  `polyzone` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_bin NOT NULL,
+  `garage` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_bin NOT NULL,
+  `price` int(11) NOT NULL DEFAULT 0,
+  `doors` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_bin NOT NULL,
+  `shoplevel` tinyint(4) NOT NULL DEFAULT 1,
+  `blip` int(11) NOT NULL DEFAULT 52,
+  `shopaccount` int(11) NOT NULL DEFAULT 0,
+  `employees` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_bin DEFAULT NULL,
+  `shopactions` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_bin DEFAULT NULL,
+  `billaction` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_bin DEFAULT NULL,
+  `bossaction` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_bin DEFAULT NULL,
+  `shopkeeper` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_bin DEFAULT NULL,
+  `items` longtext DEFAULT NULL,
+  `shipment` varchar(50) CHARACTER SET utf8mb4 COLLATE utf8mb4_bin DEFAULT NULL,
+  `autoshop` tinyint(1) DEFAULT 1,
+  `doorautolock` tinyint(1) DEFAULT 0,
+  `infinitestock` tinyint(1) DEFAULT 0,
+  `priceaccess` tinyint(1) DEFAULT 0,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb3;

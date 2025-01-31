@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Vehicle Management</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card">
+                <div class="sticky-top">
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between vehicle-categories">
+                            <h3>Categories</h3>
+                            <div class="form-check form-switch">
+                                <input class="form-check-input" type="checkbox" id="select-all-categories">
+                                <label class="form-check-label" for="select-all-categories">Select All</label>
+                            </div>
+                        </div>
+                        <div id="vehicle-categories" class="d-flex flex-wrap">
+                            <!-- Vehicle categories will be populated here -->
+                        </div>
+
+                        <hr>
+
+                        <div class="row my-3">
+                            <div class="col-md-12">
+                                <input type="text" class="form-control" id="search-box" placeholder="Search Vehicles">
+                            </div>
+                        </div>
+
+                        <div class="d-flex justify-content-between">
+                            <h3>Vehicles</h3>
+                            <div class="form-check form-switch">
+                                <input class="form-check-input" type="checkbox" id="select-all-vehicles">
+                                <label class="form-check-label" for="select-all-vehicles">Select All</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body card-body-head">
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th class="th1">Vehicle</th>
+                                <th class="th2">Model</th>
+                                <th class="th3">Category</th>
+                                <th class="th4">Price</th>
+                                <th class="th5">Select</th>
+                            </tr>
+                        </thead>
+                    </table>
+                </div>
+                <div class="card-body card-body-data" id="scrollable-content">
+                    <table class="table table-striped" id="vehicles">
+                        <tbody>
+                        <!-- All vehicles will be populated here -->
+                        </tbody>
+                    </table>
+                </div>
+                <button id="save-button" type="submit" class="btn btn-primary">Save</button>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,81 @@
+<CodeWalkerProject>
+  <Name>New CodeWalker Project</Name>
+  <Version value="1" />
+  <YmapFilenames>
+    <Item>hei_dt1_13.ymap</Item>
+    <Item>hei_dt1_13_long_0.ymap</Item>
+    <Item>hei_dt1_13_strm_0.ymap</Item>
+    <Item>hei_dt1_22_strm_0.ymap</Item>
+    <Item>hei_dt1_occl_04.ymap</Item>
+    <Item>hei_dt1_rd1.ymap</Item>
+    <Item>hei_dt1_rd1_critical_1.ymap</Item>
+    <Item>hei_dt1_rd1_long_1.ymap</Item>
+    <Item>hei_dt1_rd1_strm_5.ymap</Item>
+    <Item>hei_dt1_rd1_strm_6.ymap</Item>
+    <Item>jakers_legion.ymap</Item>
+    <Item>jakers_legion_details.ymap</Item>
+    <Item>vw_distlodlights_medium015.ymap</Item>
+    <Item>vw_distlodlights_medium019.ymap</Item>
+    <Item>vw_distlodlights_small046.ymap</Item>
+    <Item>vw_lodlights_medium015.ymap</Item>
+    <Item>vw_lodlights_medium019.ymap</Item>
+    <Item>vw_lodlights_small046.ymap</Item>
+    <Item>vw_distlodlights_medium022.ymap</Item>
+    <Item>vw_lodlights_medium022.ymap</Item>
+    <Item>vw_distlodlights_small029.ymap</Item>
+    <Item>vw_lodlights_small029.ymap</Item>
+    <Item>vw_distlodlights_small037.ymap</Item>
+    <Item>vw_lodlights_small037.ymap</Item>
+  </YmapFilenames>
+  <YtypFilenames>
+    <Item>..\ytyps\jakers_legion.ytyp</Item>
+    <Item>..\ytyps\jakers_legion_details.ytyp</Item>
+  </YtypFilenames>
+  <YbnFilenames>
+    <Item>..\ybns\dt1_13_0.ybn</Item>
+    <Item>..\ybns\dt1_rd1_3.ybn</Item>
+    <Item>..\ybns\dt1_rd1_4.ybn</Item>
+    <Item>..\ybns\hi@dt1_13_0.ybn</Item>
+    <Item>..\ybns\hi@dt1_rd1_3.ybn</Item>
+    <Item>..\ybns\hi@dt1_rd1_4.ybn</Item>
+    <Item>..\ybns\ma@dt1_13_0.ybn</Item>
+  </YbnFilenames>
+  <YndFilenames />
+  <YnvFilenames />
+  <TrainsFilenames />
+  <ScenarioFilenames>
+    <Item>..\ymts\downtown.ymt</Item>
+    <Item>..\ymts\pillbox_hill.ymt</Item>
+  </ScenarioFilenames>
+  <AudioRelFilenames />
+  <YdrFilenames>
+    <Item>..\ydrs\dt1_rd1_r1_09.ydr</Item>
+    <Item>..\ydrs\dt1_rd1_r1_10.ydr</Item>
+    <Item>..\ydrs\dt1_rd1_r1_27.ydr</Item>
+    <Item>..\ydrs\dt1_rd1_r1_28.ydr</Item>
+    <Item>..\ydrs\jakers_02gate3_l.ydr</Item>
+    <Item>..\ydrs\jakers_basket_b_fence.ydr</Item>
+    <Item>..\ydrs\jakers_build6.ydr</Item>
+    <Item>..\ydrs\jakers_build6_emissive.ydr</Item>
+    <Item>..\ydrs\jakers_details.ydr</Item>
+    <Item>..\ydrs\jakers_dt1_12_build3.ydr</Item>
+    <Item>..\ydrs\jakers_dt1_12_dt1_emissive.ydr</Item>
+    <Item>..\ydrs\jakers_dt1_18_build1.ydr</Item>
+    <Item>..\ydrs\jakers_dt1_18_build2.ydr</Item>
+    <Item>..\ydrs\jakers_dt1_18_dt1_emissive.ydr</Item>
+    <Item>..\ydrs\jakers_dt1_22_dt1_emissive.ydr</Item>
+    <Item>..\ydrs\jakers_dt1_22_side_detail.ydr</Item>
+    <Item>..\ydrs\jakers_hei_22_gd_detail3.ydr</Item>
+    <Item>..\ydrs\jakers_hei_dt1_22_bldg1b.ydr</Item>
+    <Item>..\ydrs\jakers_hw1_04_build02.ydr</Item>
+    <Item>..\ydrs\jakers_hw1_04_emissive.ydr</Item>
+    <Item>..\ydrs\jakers_hw1_07_b1.ydr</Item>
+    <Item>..\ydrs\jakers_hw1_07_elpitbase_al.ydr</Item>
+    <Item>..\ydrs\jakers_hw1_07_emissive_i.ydr</Item>
+    <Item>..\ydrs\jakers_legion.ydr</Item>
+    <Item>..\ydrs\jakers__18_dt1_emissive.ydr</Item>
+  </YdrFilenames>
+  <YddFilenames />
+  <YftFilenames />
+  <YtdFilenames />
+</CodeWalkerProject>
