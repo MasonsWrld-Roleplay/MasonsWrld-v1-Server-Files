@@ -1,0 +1,17 @@
+{
+  "send_to_comserve": "Stuur een speler op taakstraf",
+  "player_id": "Speler ID",
+  "player_id_or_identifier": "Speler ID of Identifier",
+  "tasks": "Taken",
+  "reason": "Reden",
+  "no_reason": "Geen reden",
+  "end_comserve": "Einde Taakstraf",
+  "press_to_clean": "Druk op [E] om schoon te maken",
+  "cleaning": "Aan het schoonmaken...",
+  "comserve": "Taakstraf",
+  "tasks_left": "Resterende taken",
+  "tasks_given": "Gegeven taken",
+  "by_admin": "Door beheerder",
+  "time": "Tijd",
+  "give_comserve": "Geef taakstraf"
+}

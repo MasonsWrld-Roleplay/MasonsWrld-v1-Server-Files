@@ -1,0 +1,826 @@
+[
+  {
+    "DlcCollectionName": "mp_m_mwrppaidclothing",
+    "PedName": "mp_m_freemode_01",
+    "ComponentVariations": [
+      {
+        "DrawableName": "Accessories",
+        "TextureName": "mp_m_freemode_01^teef_diff_001_a_uni",
+        "NameHash": "CLO_DCT_ACCESSORIES_0_0_M",
+        "ComponentType": "PV_COMP_TEEF",
+        "ComponentId": 7,
+        "DrawableId": 192,
+        "TextureId": 0,
+        "RelativeCollectionDrawableId": 0
+      },
+      {
+        "DrawableName": "Accessories",
+        "TextureName": "teef_diff_000_a_uni",
+        "NameHash": "CLO_DCT_ACCESSORIES_1_0_M",
+        "ComponentType": "PV_COMP_TEEF",
+        "ComponentId": 7,
+        "DrawableId": 193,
+        "TextureId": 0,
+        "RelativeCollectionDrawableId": 1
+      },
+      {
+        "DrawableName": "Accessories",
+        "TextureName": "teef_diff_000_b_uni",
+        "NameHash": "CLO_DCT_ACCESSORIES_1_1_M",
+        "ComponentType": "PV_COMP_TEEF",
+        "ComponentId": 7,
+        "DrawableId": 193,
+        "TextureId": 1,
+        "RelativeCollectionDrawableId": 1
+      },
+      {
+        "DrawableName": "Accessories",
+        "TextureName": "teef_diff_000_c_uni",
+        "NameHash": "CLO_DCT_ACCESSORIES_1_2_M",
+        "ComponentType": "PV_COMP_TEEF",
+        "ComponentId": 7,
+        "DrawableId": 193,
+        "TextureId": 2,
+        "RelativeCollectionDrawableId": 1
+      },
+      {
+        "DrawableName": "Accessories",
+        "TextureName": "teef_diff_000_d_uni",
+        "NameHash": "CLO_DCT_ACCESSORIES_1_3_M",
+        "ComponentType": "PV_COMP_TEEF",
+        "ComponentId": 7,
+        "DrawableId": 193,
+        "TextureId": 3,
+        "RelativeCollectionDrawableId": 1
+      },
+      {
+        "DrawableName": "Accessories",
+        "TextureName": "teef_diff_000_e_uni",
+        "NameHash": "CLO_DCT_ACCESSORIES_1_4_M",
+        "ComponentType": "PV_COMP_TEEF",
+        "ComponentId": 7,
+        "DrawableId": 193,
+        "TextureId": 4,
+        "RelativeCollectionDrawableId": 1
+      },
+      {
+        "DrawableName": "Accessories",
+        "TextureName": "teef_diff_000_f_uni",
+        "NameHash": "CLO_DCT_ACCESSORIES_1_5_M",
+        "ComponentType": "PV_COMP_TEEF",
+        "ComponentId": 7,
+        "DrawableId": 193,
+        "TextureId": 5,
+        "RelativeCollectionDrawableId": 1
+      },
+      {
+        "DrawableName": "Accessories",
+        "TextureName": "teef_diff_000_g_uni",
+        "NameHash": "CLO_DCT_ACCESSORIES_1_6_M",
+        "ComponentType": "PV_COMP_TEEF",
+        "ComponentId": 7,
+        "DrawableId": 193,
+        "TextureId": 6,
+        "RelativeCollectionDrawableId": 1
+      },
+      {
+        "DrawableName": "Accessories",
+        "TextureName": "teef_diff_000_h_uni",
+        "NameHash": "CLO_DCT_ACCESSORIES_1_7_M",
+        "ComponentType": "PV_COMP_TEEF",
+        "ComponentId": 7,
+        "DrawableId": 193,
+        "TextureId": 7,
+        "RelativeCollectionDrawableId": 1
+      },
+      {
+        "DrawableName": "Accessories",
+        "TextureName": "teef_diff_000_i_uni",
+        "NameHash": "CLO_DCT_ACCESSORIES_1_8_M",
+        "ComponentType": "PV_COMP_TEEF",
+        "ComponentId": 7,
+        "DrawableId": 193,
+        "TextureId": 8,
+        "RelativeCollectionDrawableId": 1
+      },
+      {
+        "DrawableName": "Accessories",
+        "TextureName": "teef_diff_000_j_uni",
+        "NameHash": "CLO_DCT_ACCESSORIES_1_9_M",
+        "ComponentType": "PV_COMP_TEEF",
+        "ComponentId": 7,
+        "DrawableId": 193,
+        "TextureId": 9,
+        "RelativeCollectionDrawableId": 1
+      },
+      {
+        "DrawableName": "Accessories",
+        "TextureName": "teef_diff_000_k_uni",
+        "NameHash": "CLO_DCT_ACCESSORIES_1_10_M",
+        "ComponentType": "PV_COMP_TEEF",
+        "ComponentId": 7,
+        "DrawableId": 193,
+        "TextureId": 10,
+        "RelativeCollectionDrawableId": 1
+      },
+      {
+        "DrawableName": "Accessories",
+        "TextureName": "teef_diff_000_l_uni",
+        "NameHash": "CLO_DCT_ACCESSORIES_1_11_M",
+        "ComponentType": "PV_COMP_TEEF",
+        "ComponentId": 7,
+        "DrawableId": 193,
+        "TextureId": 11,
+        "RelativeCollectionDrawableId": 1
+      },
+      {
+        "DrawableName": "Accessories",
+        "TextureName": "teef_diff_000_m_uni",
+        "NameHash": "CLO_DCT_ACCESSORIES_1_12_M",
+        "ComponentType": "PV_COMP_TEEF",
+        "ComponentId": 7,
+        "DrawableId": 193,
+        "TextureId": 12,
+        "RelativeCollectionDrawableId": 1
+      },
+      {
+        "DrawableName": "Accessories",
+        "TextureName": "teef_diff_000_n_uni",
+        "NameHash": "CLO_DCT_ACCESSORIES_1_13_M",
+        "ComponentType": "PV_COMP_TEEF",
+        "ComponentId": 7,
+        "DrawableId": 193,
+        "TextureId": 13,
+        "RelativeCollectionDrawableId": 1
+      },
+      {
+        "DrawableName": "Accessories",
+        "TextureName": "teef_diff_000_o_uni",
+        "NameHash": "CLO_DCT_ACCESSORIES_1_14_M",
+        "ComponentType": "PV_COMP_TEEF",
+        "ComponentId": 7,
+        "DrawableId": 193,
+        "TextureId": 14,
+        "RelativeCollectionDrawableId": 1
+      },
+      {
+        "DrawableName": "Accessories",
+        "TextureName": "teef_diff_000_p_uni",
+        "NameHash": "CLO_DCT_ACCESSORIES_1_15_M",
+        "ComponentType": "PV_COMP_TEEF",
+        "ComponentId": 7,
+        "DrawableId": 193,
+        "TextureId": 15,
+        "RelativeCollectionDrawableId": 1
+      },
+      {
+        "DrawableName": "Accessories",
+        "TextureName": "teef_diff_000_q_uni",
+        "NameHash": "CLO_DCT_ACCESSORIES_1_16_M",
+        "ComponentType": "PV_COMP_TEEF",
+        "ComponentId": 7,
+        "DrawableId": 193,
+        "TextureId": 16,
+        "RelativeCollectionDrawableId": 1
+      },
+      {
+        "DrawableName": "Accessories",
+        "TextureName": "teef_diff_000_r_uni",
+        "NameHash": "CLO_DCT_ACCESSORIES_1_17_M",
+        "ComponentType": "PV_COMP_TEEF",
+        "ComponentId": 7,
+        "DrawableId": 193,
+        "TextureId": 17,
+        "RelativeCollectionDrawableId": 1
+      },
+      {
+        "DrawableName": "Accessories",
+        "TextureName": "teef_diff_000_s_uni",
+        "NameHash": "CLO_DCT_ACCESSORIES_1_18_M",
+        "ComponentType": "PV_COMP_TEEF",
+        "ComponentId": 7,
+        "DrawableId": 193,
+        "TextureId": 18,
+        "RelativeCollectionDrawableId": 1
+      },
+      {
+        "DrawableName": "Accessories",
+        "TextureName": "teef_diff_000_t_uni",
+        "NameHash": "CLO_DCT_ACCESSORIES_1_19_M",
+        "ComponentType": "PV_COMP_TEEF",
+        "ComponentId": 7,
+        "DrawableId": 193,
+        "TextureId": 19,
+        "RelativeCollectionDrawableId": 1
+      },
+      {
+        "DrawableName": "Accessories",
+        "TextureName": "mp_m_freemode_01^teef_diff_013_a_uni",
+        "NameHash": "CLO_DCT_ACCESSORIES_2_0_M",
+        "ComponentType": "PV_COMP_TEEF",
+        "ComponentId": 7,
+        "DrawableId": 194,
+        "TextureId": 0,
+        "RelativeCollectionDrawableId": 2
+      },
+      {
+        "DrawableName": "Accessories",
+        "TextureName": "teef_diff_000_a_uni",
+        "NameHash": "CLO_DCT_ACCESSORIES_3_0_M",
+        "ComponentType": "PV_COMP_TEEF",
+        "ComponentId": 7,
+        "DrawableId": 195,
+        "TextureId": 0,
+        "RelativeCollectionDrawableId": 3
+      },
+      {
+        "DrawableName": "Accessories",
+        "TextureName": "teef_diff_013_a_uni",
+        "NameHash": "CLO_DCT_ACCESSORIES_4_0_M",
+        "ComponentType": "PV_COMP_TEEF",
+        "ComponentId": 7,
+        "DrawableId": 196,
+        "TextureId": 0,
+        "RelativeCollectionDrawableId": 4
+      },
+      {
+        "DrawableName": "Accessories",
+        "TextureName": "teef_diff_000_a_uni",
+        "NameHash": "CLO_DCT_ACCESSORIES_5_0_M",
+        "ComponentType": "PV_COMP_TEEF",
+        "ComponentId": 7,
+        "DrawableId": 197,
+        "TextureId": 0,
+        "RelativeCollectionDrawableId": 5
+      },
+      {
+        "DrawableName": "Accessories",
+        "TextureName": "mp_m_freemode_01^teef_diff_001_a_uni",
+        "NameHash": "CLO_DCT_ACCESSORIES_6_0_M",
+        "ComponentType": "PV_COMP_TEEF",
+        "ComponentId": 7,
+        "DrawableId": 198,
+        "TextureId": 0,
+        "RelativeCollectionDrawableId": 6
+      },
+      {
+        "DrawableName": "Accessories",
+        "TextureName": "teef_diff_000_a_uni",
+        "NameHash": "CLO_DCT_ACCESSORIES_7_0_M",
+        "ComponentType": "PV_COMP_TEEF",
+        "ComponentId": 7,
+        "DrawableId": 199,
+        "TextureId": 0,
+        "RelativeCollectionDrawableId": 7
+      },
+      {
+        "DrawableName": "Accessories",
+        "TextureName": "teef_diff_098_a_uni",
+        "NameHash": "CLO_DCT_ACCESSORIES_8_0_M",
+        "ComponentType": "PV_COMP_TEEF",
+        "ComponentId": 7,
+        "DrawableId": 200,
+        "TextureId": 0,
+        "RelativeCollectionDrawableId": 8
+      },
+      {
+        "DrawableName": "Accessories",
+        "TextureName": "teef_diff_099_a_uni",
+        "NameHash": "CLO_DCT_ACCESSORIES_9_0_M",
+        "ComponentType": "PV_COMP_TEEF",
+        "ComponentId": 7,
+        "DrawableId": 201,
+        "TextureId": 0,
+        "RelativeCollectionDrawableId": 9
+      },
+      {
+        "DrawableName": "Accessories",
+        "TextureName": "mp_m_freemode_01^teef_diff_001_a_uni",
+        "NameHash": "CLO_DCT_ACCESSORIES_10_0_M",
+        "ComponentType": "PV_COMP_TEEF",
+        "ComponentId": 7,
+        "DrawableId": 202,
+        "TextureId": 0,
+        "RelativeCollectionDrawableId": 10
+      },
+      {
+        "DrawableName": "Accessories",
+        "TextureName": "mp_m_freemode_01^teef_diff_012_a_uni",
+        "NameHash": "CLO_DCT_ACCESSORIES_11_0_M",
+        "ComponentType": "PV_COMP_TEEF",
+        "ComponentId": 7,
+        "DrawableId": 203,
+        "TextureId": 0,
+        "RelativeCollectionDrawableId": 11
+      },
+      {
+        "DrawableName": "Accessories",
+        "TextureName": "mp_m_freemode_01^teef_diff_999_a_uni",
+        "NameHash": "CLO_DCT_ACCESSORIES_12_0_M",
+        "ComponentType": "PV_COMP_TEEF",
+        "ComponentId": 7,
+        "DrawableId": 204,
+        "TextureId": 0,
+        "RelativeCollectionDrawableId": 12
+      },
+      {
+        "DrawableName": "Accessories",
+        "TextureName": "mp_m_freemode_01_mp_m_mwrppaidclothing^teef_diff_013_a_uni",
+        "NameHash": "CLO_DCT_ACCESSORIES_13_0_M",
+        "ComponentType": "PV_COMP_TEEF",
+        "ComponentId": 7,
+        "DrawableId": 205,
+        "TextureId": 0,
+        "RelativeCollectionDrawableId": 13
+      },
+      {
+        "DrawableName": "Accessories",
+        "TextureName": "mp_m_freemode_01^teef_diff_311_a_uni",
+        "NameHash": "CLO_DCT_ACCESSORIES_14_0_M",
+        "ComponentType": "PV_COMP_TEEF",
+        "ComponentId": 7,
+        "DrawableId": 206,
+        "TextureId": 0,
+        "RelativeCollectionDrawableId": 14
+      },
+      {
+        "DrawableName": "Accessories",
+        "TextureName": "mp_m_freemode_01_mp_m_mwrppaidclothing^teef_diff_015_a_uni",
+        "NameHash": "CLO_DCT_ACCESSORIES_15_0_M",
+        "ComponentType": "PV_COMP_TEEF",
+        "ComponentId": 7,
+        "DrawableId": 207,
+        "TextureId": 0,
+        "RelativeCollectionDrawableId": 15
+      },
+      {
+        "DrawableName": "Accessories",
+        "TextureName": "mp_m_freemode_01_mp_m_mwrppaidclothing^teef_diff_016_a_uni",
+        "NameHash": "CLO_DCT_ACCESSORIES_16_0_M",
+        "ComponentType": "PV_COMP_TEEF",
+        "ComponentId": 7,
+        "DrawableId": 208,
+        "TextureId": 0,
+        "RelativeCollectionDrawableId": 16
+      },
+      {
+        "DrawableName": "Accessories",
+        "TextureName": "mp_m_freemode_01_mp_m_mwrppaidclothing^teef_diff_017_a_uni",
+        "NameHash": "CLO_DCT_ACCESSORIES_17_0_M",
+        "ComponentType": "PV_COMP_TEEF",
+        "ComponentId": 7,
+        "DrawableId": 209,
+        "TextureId": 0,
+        "RelativeCollectionDrawableId": 17
+      },
+      {
+        "DrawableName": "Accessories",
+        "TextureName": "mp_m_freemode_01_mp_m_mwrppaidclothing^teef_diff_018_a_uni",
+        "NameHash": "CLO_DCT_ACCESSORIES_18_0_M",
+        "ComponentType": "PV_COMP_TEEF",
+        "ComponentId": 7,
+        "DrawableId": 210,
+        "TextureId": 0,
+        "RelativeCollectionDrawableId": 18
+      },
+      {
+        "DrawableName": "Accessories",
+        "TextureName": "mp_m_freemode_01_mp_m_mwrppaidclothing^teef_diff_019_a_uni",
+        "NameHash": "CLO_DCT_ACCESSORIES_19_0_M",
+        "ComponentType": "PV_COMP_TEEF",
+        "ComponentId": 7,
+        "DrawableId": 211,
+        "TextureId": 0,
+        "RelativeCollectionDrawableId": 19
+      },
+      {
+        "DrawableName": "Accessories",
+        "TextureName": "mp_m_freemode_01^teef_diff_003_a_uni",
+        "NameHash": "CLO_DCT_ACCESSORIES_20_0_M",
+        "ComponentType": "PV_COMP_TEEF",
+        "ComponentId": 7,
+        "DrawableId": 212,
+        "TextureId": 0,
+        "RelativeCollectionDrawableId": 20
+      },
+      {
+        "DrawableName": "Accessories",
+        "TextureName": "mp_m_freemode_01^teef_diff_019_a_uni",
+        "NameHash": "CLO_DCT_ACCESSORIES_21_0_M",
+        "ComponentType": "PV_COMP_TEEF",
+        "ComponentId": 7,
+        "DrawableId": 213,
+        "TextureId": 0,
+        "RelativeCollectionDrawableId": 21
+      },
+      {
+        "DrawableName": "Accessories",
+        "TextureName": "mp_m_freemode_01^teef_diff_029_a_uni",
+        "NameHash": "CLO_DCT_ACCESSORIES_22_0_M",
+        "ComponentType": "PV_COMP_TEEF",
+        "ComponentId": 7,
+        "DrawableId": 214,
+        "TextureId": 0,
+        "RelativeCollectionDrawableId": 22
+      },
+      {
+        "DrawableName": "Accessories",
+        "TextureName": "mp_m_freemode_01_mp_m_mwrppaidclothing^teef_diff_023_a_uni",
+        "NameHash": "CLO_DCT_ACCESSORIES_23_0_M",
+        "ComponentType": "PV_COMP_TEEF",
+        "ComponentId": 7,
+        "DrawableId": 215,
+        "TextureId": 0,
+        "RelativeCollectionDrawableId": 23
+      },
+      {
+        "DrawableName": "Accessories",
+        "TextureName": "mp_m_freemode_01_mp_m_mwrppaidclothing^teef_diff_024_a_uni",
+        "NameHash": "CLO_DCT_ACCESSORIES_24_0_M",
+        "ComponentType": "PV_COMP_TEEF",
+        "ComponentId": 7,
+        "DrawableId": 216,
+        "TextureId": 0,
+        "RelativeCollectionDrawableId": 24
+      },
+      {
+        "DrawableName": "Accessories",
+        "TextureName": "mp_m_freemode_01^teef_diff_014_a_uni",
+        "NameHash": "CLO_DCT_ACCESSORIES_25_0_M",
+        "ComponentType": "PV_COMP_TEEF",
+        "ComponentId": 7,
+        "DrawableId": 217,
+        "TextureId": 0,
+        "RelativeCollectionDrawableId": 25
+      },
+      {
+        "DrawableName": "Accessories",
+        "TextureName": "mp_m_freemode_01_mp_m_mwrppaidclothing^teef_diff_026_a_uni",
+        "NameHash": "CLO_DCT_ACCESSORIES_26_0_M",
+        "ComponentType": "PV_COMP_TEEF",
+        "ComponentId": 7,
+        "DrawableId": 218,
+        "TextureId": 0,
+        "RelativeCollectionDrawableId": 26
+      },
+      {
+        "DrawableName": "Accessories",
+        "TextureName": "mp_m_freemode_01_mp_m_mwrppaidclothing^teef_diff_027_a_uni",
+        "NameHash": "CLO_DCT_ACCESSORIES_27_0_M",
+        "ComponentType": "PV_COMP_TEEF",
+        "ComponentId": 7,
+        "DrawableId": 219,
+        "TextureId": 0,
+        "RelativeCollectionDrawableId": 27
+      },
+      {
+        "DrawableName": "Accessories",
+        "TextureName": "mp_m_freemode_01_mp_m_mwrppaidclothing^teef_diff_028_a_uni",
+        "NameHash": "CLO_DCT_ACCESSORIES_28_0_M",
+        "ComponentType": "PV_COMP_TEEF",
+        "ComponentId": 7,
+        "DrawableId": 220,
+        "TextureId": 0,
+        "RelativeCollectionDrawableId": 28
+      },
+      {
+        "DrawableName": "Accessories",
+        "TextureName": "mp_m_freemode_01^teef_diff_001_a_uni",
+        "NameHash": "CLO_DCT_ACCESSORIES_29_0_M",
+        "ComponentType": "PV_COMP_TEEF",
+        "ComponentId": 7,
+        "DrawableId": 221,
+        "TextureId": 0,
+        "RelativeCollectionDrawableId": 29
+      },
+      {
+        "DrawableName": "Accessories",
+        "TextureName": "mp_m_freemode_01^teef_diff_012_a_uni",
+        "NameHash": "CLO_DCT_ACCESSORIES_30_0_M",
+        "ComponentType": "PV_COMP_TEEF",
+        "ComponentId": 7,
+        "DrawableId": 222,
+        "TextureId": 0,
+        "RelativeCollectionDrawableId": 30
+      },
+      {
+        "DrawableName": "Armor",
+        "TextureName": "task_diff_000_a_uni",
+        "NameHash": "CLO_DCT_ARMOR_0_0_M",
+        "ComponentType": "PV_COMP_TASK",
+        "ComponentId": 9,
+        "DrawableId": 62,
+        "TextureId": 0,
+        "RelativeCollectionDrawableId": 0
+      },
+      {
+        "DrawableName": "Armor",
+        "TextureName": "mp_m_freemode_01^task_diff_001_a_uni",
+        "NameHash": "CLO_DCT_ARMOR_1_0_M",
+        "ComponentType": "PV_COMP_TASK",
+        "ComponentId": 9,
+        "DrawableId": 63,
+        "TextureId": 0,
+        "RelativeCollectionDrawableId": 1
+      },
+      {
+        "DrawableName": "Armor",
+        "TextureName": "mp_m_freemode_01^task_diff_001_b_uni",
+        "NameHash": "CLO_DCT_ARMOR_1_1_M",
+        "ComponentType": "PV_COMP_TASK",
+        "ComponentId": 9,
+        "DrawableId": 63,
+        "TextureId": 1,
+        "RelativeCollectionDrawableId": 1
+      },
+      {
+        "DrawableName": "Armor",
+        "TextureName": "mp_m_freemode_01_mp_m_mwrppaidclothing^task_diff_020_a_uni",
+        "NameHash": "CLO_DCT_ARMOR_2_0_M",
+        "ComponentType": "PV_COMP_TASK",
+        "ComponentId": 9,
+        "DrawableId": 64,
+        "TextureId": 0,
+        "RelativeCollectionDrawableId": 2
+      },
+      {
+        "DrawableName": "Bag",
+        "TextureName": "mp_m_freemode_01^hand_diff_018_a_uni",
+        "NameHash": "CLO_DCT_BAG_0_0_M",
+        "ComponentType": "PV_COMP_HAND",
+        "ComponentId": 5,
+        "DrawableId": 111,
+        "TextureId": 0,
+        "RelativeCollectionDrawableId": 0
+      },
+      {
+        "DrawableName": "Legs",
+        "TextureName": "lowr_diff_000_a",
+        "NameHash": "CLO_DCT_LEGS_0_0_M",
+        "ComponentType": "PV_COMP_LOWR",
+        "ComponentId": 4,
+        "DrawableId": 202,
+        "TextureId": 0,
+        "RelativeCollectionDrawableId": 0
+      },
+      {
+        "DrawableName": "Mask",
+        "TextureName": "berd_diff_001_a_uni",
+        "NameHash": "CLO_DCT_MASK_0_0_M",
+        "ComponentType": "PV_COMP_BERD",
+        "ComponentId": 1,
+        "DrawableId": 244,
+        "TextureId": 0,
+        "RelativeCollectionDrawableId": 0
+      },
+      {
+        "DrawableName": "Mask",
+        "TextureName": "berd_diff_001_a_uni",
+        "NameHash": "CLO_DCT_MASK_0_1_M",
+        "ComponentType": "PV_COMP_BERD",
+        "ComponentId": 1,
+        "DrawableId": 244,
+        "TextureId": 1,
+        "RelativeCollectionDrawableId": 0
+      },
+      {
+        "DrawableName": "Mask",
+        "TextureName": "berd_diff_001_b_uni",
+        "NameHash": "CLO_DCT_MASK_0_-1_M",
+        "ComponentType": "PV_COMP_BERD",
+        "ComponentId": 1,
+        "DrawableId": 244,
+        "TextureId": 2,
+        "RelativeCollectionDrawableId": 0
+      },
+      {
+        "DrawableName": "Mask",
+        "TextureName": "mp_m_freemode_01^berd_diff_001_a_uni",
+        "NameHash": "CLO_DCT_MASK_1_0_M",
+        "ComponentType": "PV_COMP_BERD",
+        "ComponentId": 1,
+        "DrawableId": 245,
+        "TextureId": 0,
+        "RelativeCollectionDrawableId": 1
+      },
+      {
+        "DrawableName": "Mask",
+        "TextureName": "mp_m_freemode_01^berd_diff_036_a_uni",
+        "NameHash": "CLO_DCT_MASK_2_0_M",
+        "ComponentType": "PV_COMP_BERD",
+        "ComponentId": 1,
+        "DrawableId": 246,
+        "TextureId": 0,
+        "RelativeCollectionDrawableId": 2
+      },
+      {
+        "DrawableName": "Shoes",
+        "TextureName": "feet_diff_011_c_uni",
+        "NameHash": "CLO_DCT_SHOES_0_0_M",
+        "ComponentType": "PV_COMP_FEET",
+        "ComponentId": 6,
+        "DrawableId": 151,
+        "TextureId": 0,
+        "RelativeCollectionDrawableId": 0
+      },
+      {
+        "DrawableName": "Undershirt",
+        "TextureName": "mp_m_freemode_01_mp_m_mwrppaidclothing^accs_diff_000_a_uni",
+        "NameHash": "CLO_DCT_UNDERSHIRT_0_0_M",
+        "ComponentType": "PV_COMP_ACCS",
+        "ComponentId": 8,
+        "DrawableId": 213,
+        "TextureId": 0,
+        "RelativeCollectionDrawableId": 0
+      },
+      {
+        "DrawableName": "Undershirt",
+        "TextureName": "mp_m_freemode_01_mp_m_mwrppaidclothing^accs_diff_000_b_uni",
+        "NameHash": "CLO_DCT_UNDERSHIRT_0_1_M",
+        "ComponentType": "PV_COMP_ACCS",
+        "ComponentId": 8,
+        "DrawableId": 213,
+        "TextureId": 1,
+        "RelativeCollectionDrawableId": 0
+      },
+      {
+        "DrawableName": "Undershirt",
+        "TextureName": "mp_m_freemode_01_mp_m_mwrppaidclothing^accs_diff_000_c_uni",
+        "NameHash": "CLO_DCT_UNDERSHIRT_0_2_M",
+        "ComponentType": "PV_COMP_ACCS",
+        "ComponentId": 8,
+        "DrawableId": 213,
+        "TextureId": 2,
+        "RelativeCollectionDrawableId": 0
+      },
+      {
+        "DrawableName": "Undershirt",
+        "TextureName": "mp_m_freemode_01_mp_m_mwrppaidclothing^accs_diff_000_d_uni",
+        "NameHash": "CLO_DCT_UNDERSHIRT_0_3_M",
+        "ComponentType": "PV_COMP_ACCS",
+        "ComponentId": 8,
+        "DrawableId": 213,
+        "TextureId": 3,
+        "RelativeCollectionDrawableId": 0
+      },
+      {
+        "DrawableName": "Undershirt",
+        "TextureName": "mp_m_freemode_01accs_diff_002_a_uni",
+        "NameHash": "CLO_DCT_UNDERSHIRT_0_4_M",
+        "ComponentType": "PV_COMP_ACCS",
+        "ComponentId": 8,
+        "DrawableId": 213,
+        "TextureId": 4,
+        "RelativeCollectionDrawableId": 0
+      },
+      {
+        "DrawableName": "Undershirt",
+        "TextureName": "mp_m_freemode_01_mp_m_mwrppaidclothing^accs_diff_000_a_uni",
+        "NameHash": "CLO_DCT_UNDERSHIRT_0_5_M",
+        "ComponentType": "PV_COMP_ACCS",
+        "ComponentId": 8,
+        "DrawableId": 213,
+        "TextureId": 5,
+        "RelativeCollectionDrawableId": 0
+      }
+    ],
+    "Props": []
+  },
+  {
+    "DlcCollectionName": "mp_f_mwrppaidclothing",
+    "PedName": "mp_f_freemode_01",
+    "ComponentVariations": [
+      {
+        "DrawableName": "Accessories",
+        "TextureName": "mp_f_freemode_01^teef_diff_001_a_uni",
+        "NameHash": "CLO_DCT_ACCESSORIES_0_0_F",
+        "ComponentType": "PV_COMP_TEEF",
+        "ComponentId": 7,
+        "DrawableId": 162,
+        "TextureId": 0,
+        "RelativeCollectionDrawableId": 0
+      },
+      {
+        "DrawableName": "Accessories",
+        "TextureName": "mp_f_freemode_01^teef_202_u",
+        "NameHash": "CLO_DCT_ACCESSORIES_1_0_F",
+        "ComponentType": "PV_COMP_TEEF",
+        "ComponentId": 7,
+        "DrawableId": 163,
+        "TextureId": 0,
+        "RelativeCollectionDrawableId": 1
+      },
+      {
+        "DrawableName": "Accessories",
+        "TextureName": "mp_f_freemode_01_mp_f_mwrppaidclothing^teef_diff_002_c_uni",
+        "NameHash": "CLO_DCT_ACCESSORIES_2_0_F",
+        "ComponentType": "PV_COMP_TEEF",
+        "ComponentId": 7,
+        "DrawableId": 164,
+        "TextureId": 0,
+        "RelativeCollectionDrawableId": 2
+      },
+      {
+        "DrawableName": "Accessories",
+        "TextureName": "mp_f_freemode_01_mp_f_mwrppaidclothing^teef_diff_002_b_uni",
+        "NameHash": "CLO_DCT_ACCESSORIES_2_1_F",
+        "ComponentType": "PV_COMP_TEEF",
+        "ComponentId": 7,
+        "DrawableId": 164,
+        "TextureId": 1,
+        "RelativeCollectionDrawableId": 2
+      },
+      {
+        "DrawableName": "Accessories",
+        "TextureName": "mp_f_freemode_01_mp_f_mwrppaidclothing^teef_diff_002_a_uni",
+        "NameHash": "CLO_DCT_ACCESSORIES_2_2_F",
+        "ComponentType": "PV_COMP_TEEF",
+        "ComponentId": 7,
+        "DrawableId": 164,
+        "TextureId": 2,
+        "RelativeCollectionDrawableId": 2
+      },
+      {
+        "DrawableName": "Accessories",
+        "TextureName": "mp_m_freemode_01_mp_m_mwrppaidclothing^teef_diff_007_a_uni",
+        "NameHash": "CLO_DCT_ACCESSORIES_3_0_F",
+        "ComponentType": "PV_COMP_TEEF",
+        "ComponentId": 7,
+        "DrawableId": 165,
+        "TextureId": 0,
+        "RelativeCollectionDrawableId": 3
+      },
+      {
+        "DrawableName": "Mask",
+        "TextureName": "mp_f_freemode_01^berd_diff_001_a_uni",
+        "NameHash": "CLO_DCT_MASK_0_0_F",
+        "ComponentType": "PV_COMP_BERD",
+        "ComponentId": 1,
+        "DrawableId": 245,
+        "TextureId": 0,
+        "RelativeCollectionDrawableId": 0
+      },
+      {
+        "DrawableName": "Undershirt",
+        "TextureName": "mp_m_freemode_01_mp_m_mwrppaidclothing^accs_diff_000_a_uni",
+        "NameHash": "CLO_DCT_UNDERSHIRT_0_0_F",
+        "ComponentType": "PV_COMP_ACCS",
+        "ComponentId": 8,
+        "DrawableId": 259,
+        "TextureId": 0,
+        "RelativeCollectionDrawableId": 0
+      },
+      {
+        "DrawableName": "Undershirt",
+        "TextureName": "mp_m_freemode_01_mp_m_mwrppaidclothing^accs_diff_000_b_uni",
+        "NameHash": "CLO_DCT_UNDERSHIRT_0_1_F",
+        "ComponentType": "PV_COMP_ACCS",
+        "ComponentId": 8,
+        "DrawableId": 259,
+        "TextureId": 1,
+        "RelativeCollectionDrawableId": 0
+      },
+      {
+        "DrawableName": "Undershirt",
+        "TextureName": "mp_m_freemode_01_mp_m_mwrppaidclothing^accs_diff_000_c_uni",
+        "NameHash": "CLO_DCT_UNDERSHIRT_0_2_F",
+        "ComponentType": "PV_COMP_ACCS",
+        "ComponentId": 8,
+        "DrawableId": 259,
+        "TextureId": 2,
+        "RelativeCollectionDrawableId": 0
+      },
+      {
+        "DrawableName": "Undershirt",
+        "TextureName": "mp_m_freemode_01_mp_m_mwrppaidclothing^accs_diff_000_d_uni",
+        "NameHash": "CLO_DCT_UNDERSHIRT_0_3_F",
+        "ComponentType": "PV_COMP_ACCS",
+        "ComponentId": 8,
+        "DrawableId": 259,
+        "TextureId": 3,
+        "RelativeCollectionDrawableId": 0
+      },
+      {
+        "DrawableName": "Undershirt",
+        "TextureName": "mp_m_freemode_01accs_diff_002_a_uni",
+        "NameHash": "CLO_DCT_UNDERSHIRT_0_4_F",
+        "ComponentType": "PV_COMP_ACCS",
+        "ComponentId": 8,
+        "DrawableId": 259,
+        "TextureId": 4,
+        "RelativeCollectionDrawableId": 0
+      },
+      {
+        "DrawableName": "Undershirt",
+        "TextureName": "Tex_0007_0",
+        "NameHash": "CLO_DCT_UNDERSHIRT_0_5_F",
+        "ComponentType": "PV_COMP_ACCS",
+        "ComponentId": 8,
+        "DrawableId": 259,
+        "TextureId": 5,
+        "RelativeCollectionDrawableId": 0
+      }
+    ],
+    "Props": []
+  }
+]

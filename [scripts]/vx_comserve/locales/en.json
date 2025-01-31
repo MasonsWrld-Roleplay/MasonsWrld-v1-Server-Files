@@ -1,0 +1,17 @@
+{
+  "send_to_comserve": "Send a player on community service",
+  "player_id": "Player ID",
+  "player_id_or_identifier": "Player ID or Identifier",
+  "tasks": "Tasks",
+  "reason": "Reason",
+  "no_reason": "No reason",
+  "end_comserve": "End community service",
+  "press_to_clean": "Press [E] to clean",
+  "cleaning": "Cleaning...",
+  "comserve": "Community Service",
+  "tasks_left": "Tasks Left",
+  "tasks_given": "Tasks Given",
+  "by_admin": "By",
+  "time": "Time",
+  "give_comserve": "Give comserve"
+}
