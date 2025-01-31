@@ -1,0 +1,258 @@
+ -- VONSWEAPONPACKV1
+		['WEAPON_GLOCK17'] = {
+			label = 'G17 Drum Switch',
+			weight = 1400,
+			durability = 0.05,
+			ammoname = 'ammo-9'
+		},
+
+		['WEAPON_G19BLACK'] = {
+			label = 'Glock 19',
+			weight = 1400,
+			durability = 0.05,
+			ammoname = 'ammo-9'
+		},
+
+		['WEAPON_G17BLACK'] = {
+			label = 'Glock 17',
+			weight = 1400,
+			durability = 0.05,
+			ammoname = 'ammo-9'
+		},
+
+		['WEAPON_TANFNX45'] = {
+			label = 'FNX 45 Tan',
+			weight = 1400,
+			durability = 0.05,
+			ammoname = 'ammo-45'
+		},
+
+		['WEAPON_FNX45'] = {
+			label = 'FNX 45 Black',
+			weight = 1400,
+			durability = 0.05,
+			ammoname = 'ammo-45'
+		},
+
+		['WEAPON_G17EXT'] = {
+			label = 'Glock 17 Stick',
+			weight = 1400,
+			durability = 0.05,
+			ammoname = 'ammo-9'
+		},
+
+		['WEAPON_G17STAINLESS'] = {
+			label = 'G17 Stainless Stick',
+			weight = 1400,
+			durability = 0.05,
+			ammoname = 'ammo-9'
+		},
+		
+		['WEAPON_G17TAN'] = {
+			label = 'Glock 17 Tan',
+			weight = 1400,
+			durability = 0.05,
+			ammoname = 'ammo-9'
+		},
+
+		['WEAPON_G17GREEN'] = {
+			label = 'Glock 17 Green',
+			weight = 1400,
+			durability = 0.05,
+			ammoname = 'ammo-9'
+		},
+
+		['WEAPON_SIG'] = {
+			label = 'SIG M18 Tan',
+			weight = 1400,
+			durability = 0.05,
+			ammoname = 'ammo-9'
+		},
+
+		['WEAPON_G19XTAN'] = {
+			label = 'G19x Tan Stick',
+			weight = 1400,
+			durability = 0.05,
+			ammoname = 'ammo-9'
+		},
+
+		['WEAPON_HELLCAT'] = {
+			label = 'Black Hellcat',
+			weight = 1400,
+			durability = 0.05,
+			ammoname = 'ammo-9'
+		},
+
+		['WEAPON_G26SWITCH'] = {
+			label = 'Glock 26 Switch',
+			weight = 1400,
+			durability = 0.05,
+			ammoname = 'ammo-9'
+		},
+
+		['WEAPON_G22'] = {
+			label = 'Glock 22',
+			weight = 1500,
+			durability = 0.05,
+			ammoname = 'ammo-40'
+		},
+
+		['WEAPON_G26EXT'] = {
+			label = 'Glock 26 Stick',
+			weight = 1600,
+			durability = 0.05,
+			ammoname = 'ammo-9'
+		},
+
+		['WEAPON_G41'] = {
+			label = 'Glock 41',
+			weight = 1400,
+			durability = 0.05,
+			ammoname = 'ammo-45'
+		},
+
+		['WEAPON_G19SWITCH'] = {
+			label = 'Glock 19 Switch',
+			weight = 1500,
+			durability = 0.05,
+			ammoname = 'ammo-9'
+		},
+
+		['WEAPON_RUGER57'] = {
+			label = 'Ruger 5.7',
+			weight = 1500,
+			durability = 0.05,
+			ammoname = 'ammo-5.7'
+		},
+
+		['WEAPON_M9'] = {
+			label = 'Beretta M9',
+			weight = 1400,
+			durability = 0.05,
+			ammoname = 'ammo-9'
+		},
+
+		['WEAPON_HIPOINT'] = {
+			label = 'Hi Point',
+			weight = 1200,
+			durability = 0.10,
+			ammoname = 'ammo-9'
+		},
+
+		['WEAPON_ARPISTOLSUB'] = {
+			label = '9mm ARP',
+			weight = 2200,
+			durability = 0.04,
+			ammoname = 'ammo-9'
+		},
+
+		['WEAPON_ARPISTOL'] = {
+			label = '5.56 ARP Drum',
+			weight = 2600,
+			durability = 0.04,
+			ammoname = 'ammo-rifle'
+		},
+		
+		['WEAPON_MICRODRACO'] = {
+			label = 'Micro Draco',
+			weight = 1800,
+			durability = 0.04,
+			ammoname = 'ammo-rifle2'
+		},
+
+		['WEAPON_DRACO'] = {
+			label = 'Mini Draco',
+			weight = 1900,
+			durability = 0.04,
+			ammoname = 'ammo-rifle2'
+		},
+
+		['WEAPON_DD11_B'] = {
+			label = 'DDM4 11.5',
+			weight = 2300,
+			durability = 0.04,
+			ammoname = 'ammo-rifle'
+		},
+
+		['WEAPON_MPX'] = {
+			label = 'MPX Drum',
+			weight = 1800,
+			durability = 0.03,
+			ammoname = 'ammo-9'
+		},
+
+		['WEAPON_PLR'] = {
+			label = 'KelTec PLR',
+			weight = 1800,
+			durability = 0.05,
+			ammoname = 'ammo-rifle'
+		},
+
+		['WEAPON_HK416C'] = {
+			label = 'HK416c',
+			weight = 2200,
+			durability = 0.04,
+			ammoname = 'ammo-rifle'
+		},
+
+		['WEAPON_AK47DRUM'] = {
+			label = 'AK47 Drum',
+			weight = 2800,
+			durability = 0.04,
+			ammoname = 'ammo-rifle2'
+		},
+
+		['WEAPON_UDP9'] = {
+			label = 'UDP9 9mm',
+			weight = 2300,
+			durability = 0.04,
+			ammoname = 'ammo-9'
+		},
+
+		['WEAPON_SCREWDRIVER'] = {
+			label = 'Screwdriver',
+			weight = 300,
+			durability = 0.07,
+		},
+
+		['WEAPON_TRIDAGGER'] = {
+			label = 'Tridagger',
+			weight = 500,
+			durability = 0.05,
+		},
+
+		['WEAPON_KITCHENKNIFE'] = {
+			label = 'Kitchen Knife',
+			weight = 400,
+			durability = 0.06,
+		},
+
+		['WEAPON_RUSTYSHANK'] = {
+			label = 'Rusty Shank',
+			weight = 200,
+			durability = 0.15,
+		},
+
+		['WEAPON_KM2000'] = {
+			label = 'KM2000',
+			weight = 300,
+			durability = 0.04,
+		},
+
+
+
+        -----------------------------------------------
+
+
+
+        -- Custom Ammo
+
+        ['ammo-5.7'] = {
+			label = '5.7mm',
+			weight = 45,
+		},
+
+        ['ammo-40'] = {
+			label = '.40 SW',
+			weight = 16,
+		},
