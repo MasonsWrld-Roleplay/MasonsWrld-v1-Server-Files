@@ -1,0 +1,372 @@
+body {
+    display:none;
+    overflow: hidden;
+    font-family: 'Roboto', sans-serif;
+    background-color: transparent !important;
+
+}
+.mainbg {
+  display: block;
+  background-image: url(laptop.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 17%;
+  top: 7%;
+  height: 900px;
+  width: 1359px;
+  padding: 0 !important;
+  z-index: 2;
+  user-select: none;
+}
+
+.input-group-text {
+  display: block;
+  cursor: pointer;
+}
+
+.input-group-text:hover + .info-popup {
+  display: block;
+}
+
+.info-popup {
+  display: none;
+  position: absolute;
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  top: 0;
+  left: 110%;
+  white-space: nowrap;
+}
+
+#dyno {
+  position: absolute;
+  width: 80%;
+  height: 46%;
+  font-size: 15;
+  top: 240px;
+  left:386px;
+ 
+}
+
+.hp-data {
+
+  left: 1px;
+  bottom: 50%;
+}
+
+.tq-data {
+  left: 1px;
+  bottom: 10%;
+}
+
+
+
+.hp-rpm {
+  position: absolute;
+  bottom: 104px;
+  left: 40px;
+}
+
+.tq-rpm {
+  position: absolute;
+  bottom: 30px;
+  left: 40px;
+}
+.maincontainer {
+  display: block;
+  width: 27.81%;
+  height: 49%;
+  position: absolute;
+  left: 15.4%;
+  bottom: 40.8%;
+  margin: auto;
+  color: rgb(255, 255, 255);
+  background-color: rgb(29, 29, 29);
+  z-index: 1;
+}
+
+
+
+.navBar {
+  background-color: rgb(29, 29, 29);
+  overflow: hidden;
+  height: 100%;
+  color: rgb(151, 0, 0);  
+}
+
+.navBar h2 {
+  display: block;
+  color:  rgba(233, 233, 233, 0.953); 
+  padding: 0px 10px;
+  font-size: 1px;
+  position: absolute;
+  background-color: rgb(29, 29, 29);
+}
+
+.navBar h2:hover {
+    color: rgb(151, 0, 0);
+}
+
+.handlinginfo {
+    text-align: center;
+    position: absolute;
+    bottom:1%;
+    left:1.5%;
+    width: 97%;
+    height: 93%;
+  color: rgb(211, 211, 211);
+  
+
+}
+
+.carmaps {
+    text-align: center;
+    position: absolute;
+    bottom:1%;
+    left:1.5%;
+    width: 97%;
+    height: 93%;
+  color: rgb(211, 211, 211);
+  
+
+}
+
+.carmaps input {
+ border: 2px solid rgb(190, 162, 2);
+ border-radius: 4px;
+ outline: none;
+ padding: 4px;
+ font-size: 15px;
+ box-sizing: border-box;
+ height: 7%;
+ width: 60% ;
+ text-align: center;
+ 
+}
+
+.handlinginfo input {
+ border: 2px solid rgb(190, 162, 2);
+ border-radius: 4px;
+ outline: none;
+ padding: 4px;
+ font-size: 11px;
+ box-sizing: border-box;
+ height: 5%;
+ width: 20% ;
+ text-align: center;
+ 
+}
+
+.handlinginfo textarea {
+ resize: none;
+ width: 100%;
+ height: 40%;
+ font-size:11px;
+ margin: 4px 0;
+ padding: 4px;
+ color: rgb(10, 11, 17);
+} 
+
+.preset-input-save {
+  text-align: center;
+
+}
+
+.window-presetsload-load{
+  display:none;
+}
+
+.loaded-presets{
+  height: 78%;
+  text-align: center;
+  overflow-y: scroll;
+}
+.preset { 
+  background-color: rgba(0, 0, 0, 0.616);
+}
+.preset-header {
+  height: 6%;
+  font-size:15px;
+}
+
+.preset-options button{
+  width:45%;
+  margin:5px;
+  background: linear-gradient(#FCC009, #D3C400);
+  border:1px solid black;
+}
+.preset-options button:hover{
+  background: linear-gradient(#FCC009, #B48A0A);
+  cursor: pointer;
+}
+.preset-delete-prompt-main{
+  display:none;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  position: fixed;
+  width:100%;
+  height:100%;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4);
+}
+.preset-border{
+  display:flex;
+  width:100%;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+}
+.preset-delete-prompt{
+  width: 50%;
+  z-index: 20;
+  border:1px solid black;
+}
+.preset-delete-prompt h2{
+  margin:0;
+  padding:3px;
+  background: linear-gradient(#FCC009, #D3C400);
+}
+.preset-delete-items{
+  width:50%;
+  border:1px solid black;
+  border-top: none;
+  background-color: rgba(0, 0, 0, 0.568);
+}
+.preset-delete-items button{
+  margin:5px;
+  background: linear-gradient(#FCC009, #D3C400);
+  border:1px solid black;
+  width:45%;
+}
+.preset-top-banner{
+  display:flex;
+  justify-content: space-between;
+}
+.preset-delete, .preset-select , .preset-default{
+  display:flex;
+  justify-content: center;
+  padding:3px;
+  width:100px;
+  text-transform: uppercase;
+  font-weight: 500;
+  align-self: center;
+  text-align: center;
+  background: linear-gradient(#6b6b6b, #bbbbbb);
+  border:1px solid black;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  -webkit-user-select: none; /* Safari */        
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
+}
+.preset-delete h4{
+  margin:0;
+  font-weight: 500;
+  align-self: center;
+}
+
+.preset-default h4{
+  margin:0;
+  font-weight: 500;
+  align-self: center;
+}
+
+.preset-select h4{
+  margin:0;
+  font-weight: 500;
+  align-self: center;
+}
+.preset-delete:hover, .preset-select:hover, .preset-default:hover{
+  background: linear-gradient(#FCC009, #B48A0A);
+  cursor: pointer;
+}
+
+.preset-save-name {
+  position: absolute;
+  margin-top: 2% ; 
+  left: 1%
+}
+.preset-save-button {
+  position: absolute;
+  width: 13%;
+  margin-top: 2% ; 
+  left : 49.5%;
+}
+
+.preset-share-name {
+  position: absolute;
+  margin-top: 2% ; 
+  width:20%;
+  right: 1%
+}
+.preset-share-button {
+  position: absolute;
+  width: 13%;
+  margin-top: 2% ; 
+  left : 65.6%;
+}
+
+
+.window-presets-load {
+  position: absolute;
+
+ top:10%;
+ height:90%;
+ width:100%;
+}
+
+#traction {
+    position: absolute;
+    bottom:1%;
+    left:1.5%;
+    width: 97%;
+    height: 93%;
+
+}
+
+#power {
+    position: absolute;
+    bottom:1%;
+    left:1.5%;
+    width: 97%;
+    height: 93%;
+}
+
+#brakes {
+    position: absolute;
+    bottom:1%;
+    left:1.5%;
+    width: 97%;
+    height: 93%;
+}
+
+#suspension {
+    position: absolute;
+    bottom:9.8%;
+    left:1.5%;
+    width: 97%;
+    height: 85%;
+    font-size: 13px;
+
+}
+
+
+#presets {
+   
+    position: absolute;
+    bottom:1%;
+    left:1.5%;
+    width: 97%;
+    height: 93%;
+}
+
+

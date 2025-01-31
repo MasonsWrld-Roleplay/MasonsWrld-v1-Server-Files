@@ -1,0 +1,43 @@
+{
+    "cash": "Cash",
+    "bank": "Bank",
+    "job": "Current Job",
+    "job2": "Current Job2",
+    "gang": "Current Gang",
+    "weapon": "Weapon",
+    "remaining": "Remaining",
+    "switch": "Editor Mode",
+    "switch_off": "Close Editor Mode",
+
+    "menu_title": "Settings",
+    "menu_subtitle": "Menu",
+    "menu_text": "Here you can Set-UP your hud, feel free to use your settings whatever you like.",
+
+    "hudtype": "hud type",
+    "hudtype_information": "Here you can Set-UP your hud, feel free to use your settings whatever you like.",
+    "hudtype_old": "Old",
+    "hudtype_new": "New",
+    "hudtype_newest": "Newest",
+
+    "car_hudtype": "car hud type",
+    "car_hudtype_information": "Here you can Set-UP your hud, feel free to use your settings whatever you like.",
+    "car_hudtype_old": "Old",
+    "car_hudtype_new": "New",
+    "car_hudtype_newest": "Newest",
+
+    "maptype": "map type",
+    "maptype_information": "You can choose the map shape you want to see here and customise it for yourself.",
+    "maptype_rounded": "Rounded map",
+    "maptype_squared": "Squared map",
+
+    "colors": "elements colors",
+    "colors_information": "You can set your huds and main colours as you wish, you can see them.",
+
+    "speedtype": "speed type",
+    "speedtype_information": "Allows you to select the speed type you want to see in the speed meter system.",
+
+    "cinema": "cinema mode",
+    "cinema_information": "Turn on cinematic mode to make the game more beautiful",
+
+    "resetButton": "Reset all my modifications"
+}

@@ -1,0 +1,64 @@
+1. place the files in [IMAGES] in your ox_inventory image directory 'ox_inventory/web/images' by default
+
+2. add these items to your ox_inventory items directory 'ox_inventory/data/items.lua' by default
+
+['wig_cap'] = {
+		label = 'Wig Cap',
+		stack = true,
+		weight = 10,
+	},
+
+	['wig_sewin'] = {
+		label = 'Sew In Kit',
+		stack = true,
+		weight = 10,
+	},
+
+	['hair_bundles'] = {
+		label = 'Hair Bundles',
+		stack = true,
+		weight = 10,
+	},
+
+	['wig_table'] = {
+		label = 'Wig Table',
+		stack = false,
+		close = true,
+		weight = 1000,
+		description = "Table for Crafting Wigs",
+	},
+
+	['wig_40inches'] = {
+		label = 'Straight 40 Inch Wig',
+		stack = true,
+		weight = 10,
+		description = "The Wig that every woman wants",
+	},
+
+	['wig_bang'] = {
+		label = 'Bang Wig',
+		stack = true,
+		weight = 10,
+		description = "Not the Bayaang!",
+	},
+
+	['clientale_phone'] = {
+		label = 'Clientale Phone',
+		stack = false,
+		weight = 100,
+		description = "Calls Clients to sale Wigs in Bulk",
+	},
+
+	['wig_curly'] = {
+		label = 'Curly Wig',
+		stack = true,
+		weight = 10,
+		description = "Its Giving Latina <3",
+	},
+
+	['wig_braids'] = {
+		label = 'Braids Wig',
+		stack = true,
+		weight = 10,
+		description = "True classic Never Fails!",
+	},

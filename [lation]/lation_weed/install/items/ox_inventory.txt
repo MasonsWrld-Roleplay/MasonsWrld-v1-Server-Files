@@ -1,0 +1,94 @@
+['watering_can'] = {
+    label = 'Watering Can',
+    weight = 325,
+},
+
+['fertilizer'] = {
+    label = 'Fertilizer',
+    weight = 175,
+},
+
+['plant_pot'] = {
+    label = 'Plant Pot',
+    weight = 25,
+},
+
+['plant_shovel'] = {
+    label = 'Shovel',
+    weight = 75,
+},
+
+['plant_shears'] = {
+    label = 'Shears',
+    weight = 10,
+},
+
+['rolling_paper'] = {
+    label = 'Rolling Paper',
+    weight = 5,
+},
+
+['regweed_seed'] = {
+    label = 'Weed Seed',
+    weight = 15,
+},
+
+['bananakush_seed'] = {
+    label = 'Banana Kush Seed',
+    weight = 10,
+},
+
+['purplehaze_seed'] = {
+    label = 'Purple Haze Seed',
+    weight = 10,
+},
+
+['bluedream_seed'] = {
+    label = 'Blue Dream Seed',
+    weight = 10,
+},
+
+['regweed_bud'] = {
+    label = 'Weed Bud',
+    weight = 15,
+},
+
+['bananakush_bud'] = {
+    label = 'Banana Kush Bud',
+    weight = 15,
+},
+
+['purplehaze_bud'] = {
+    label = 'Purple Haze Bud',
+    weight = 15,
+},
+
+['bluedream_bud'] = {
+    label = 'Blue Dream Bud',
+    weight = 15,
+},
+
+['regweed_joint'] = {
+    label = 'Weed Joint',
+    weight = 15,
+},
+
+['bananakush_joint'] = {
+    label = 'Banana Kush Joint',
+    weight = 15,
+},
+
+['purplehaze_joint'] = {
+    label = 'Purple Haze Joint',
+    weight = 15,
+},
+
+['bluedream_joint'] = {
+    label = 'Blue Dream Joint',
+    weight = 15,
+},
+
+['lab_access_card'] = {
+    label = 'Access Card',
+    weight = 15,
+},

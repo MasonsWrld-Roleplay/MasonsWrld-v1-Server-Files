@@ -1,0 +1,13 @@
+{
+    "serverInfo": false,
+    "id": false,
+    "players": false,
+    "clockNdate": false,
+    "cash": false,
+    "bank": false,
+    "job": false,
+    "job2": false,
+    "gang": false,
+    "weapons": false,
+    "keybinds": false
+}

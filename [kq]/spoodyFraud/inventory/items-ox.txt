@@ -1,0 +1,55 @@
+	["burnerphone"] = {
+		label = "Burner Phone",
+		weight = 100,
+		stack = false,
+		close = true,
+		description = "",
+		client = {
+			image = "burnerphone.png",
+		},
+		server = {
+			export = 'spoodyFraud.burnerphone',
+		},
+	},
+
+	["msr"] = {
+		label = "MSR",
+		weight = 100,
+		stack = false,
+		close = true,
+		description = "",
+		client = {
+			image = "msr.png",
+		},
+		server = {
+			export = 'spoodyFraud.msr',
+		},
+	},
+
+	["laptop"] = {
+		label = "Laptop",
+		weight = 100,
+		stack = false,
+		close = true,
+		description = "",
+		client = {
+			image = "laptop.png",
+		},
+		server = {
+			export = 'spoodyFraud.laptop',
+		},
+	},
+
+	["printer"] = {
+		label = "Printer",
+		weight = 100,
+		stack = false,
+		close = true,
+		description = "",
+		client = {
+			image = "printer.png",
+		},
+		server = {
+			export = 'spoodyFraud.printer',
+		},
+	},

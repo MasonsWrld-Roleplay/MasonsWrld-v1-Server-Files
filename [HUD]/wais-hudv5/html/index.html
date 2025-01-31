@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Wais - Hudv5</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css' crossorigin='anonymous' />
+    <!-- <link href="https://cdn.jsdelivr.net/gh/hung1001/font-awesome-pro-v6@18657a9/css/all.min.css" rel="stylesheet" type="text/css" /> -->
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> <!-- JQuery -->
+    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+</head>
+<body>
+
+    <div class="cinematic-top"></div>
+    <div class="cinematic-bottom"></div>
+
+    <div class="calendar">
+        <div class="clock">
+            <i class="fa-solid fa-clock"></i>
+            <span id="clock">15:00</span>
+        </div>
+        <div class="date">
+            <i class="fa-regular fa-calendar-days"></i>
+            <span id="date">02.02.2023</span>
+        </div>
+    </div>
+
+    <div class="editing-mode" data-state="deactive">
+        <i class="fa-solid fa-pen-ruler"></i>
+        <span>Editor mode is on. You can adjust your position settings. Press the ESC key to exit.</span>
+    </div>
+
+    <div class="some-information">
+        <div class="server-info">
+            <span id="player-id">
+                ID
+                <span id="playerId">132</span>
+            </span>
+
+            <div class="server-count">
+                <i class="fa-solid fa-user"></i>
+                <span id="online">950</span>
+                <span id="maxonline">/1024</span>
+            </div>
+        </div>
+
+        <div class="icon-div end" data-info="job">
+            <div class="icon-texts direction">
+                <span id="title" data-job="label">Police Officer</span>
+                <span id="content" data-job="name">Police</span>
+            </div>
+            <div class="icons">
+                <div class="icon-box _3_5vh">
+                    <i class="fa-solid fa-briefcase"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="icon-div end" data-info="money">
+            <div class="icon-texts">
+                <span id="moneyCash">$0</span>
+            </div>
+            <div class="icons">
+                <div class="icon-box _3_25vh">
+                    <i class="fa-solid fa-wallet"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="icon-div end" data-info="money">
+            <div class="icon-texts">
+                <span id="moneyBank">$0</span>
+            </div>
+            <div class="icons">
+                <div class="icon-box _3_25vh">
+                    <i class="fa-solid fa-building-columns"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="player-weapon">
+            <img class="weapon-image" src="img/weapons/-1569615261.png">
+            <div class="ammo">
+                <img src="img/bullet.png">
+                <span id="ammo">30
+                    <span id="inclip">/128</span>
+                </span>
+            </div>
+        </div>
+    </div>
+
+    <div class="keybind-list">
+        <div class="keybind">
+            <span>${v.name}</span>
+            <div class="keybind-button">
+                <span>${v.key}</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="car-hud">
+        <svg viewBox="0 0 230 230">
+            <path class="speed-background" d="M57.625,206.164 C57.625,206.164 10.704,175.358 10.704,115.531 C10.704,55.703 56.837,10.312 120.187,10.312 C183.538,10.312 208.817,58.233 208.817,58.233"></path>
+            <path class="speed-prog" d="M57.625,206.164 C57.625,206.164 10.704,175.358 10.704,115.531 C10.704,55.703 56.837,10.312 120.187,10.312 C183.538,10.312 208.817,58.233 208.817,58.233"></path>
+        </svg>
+        
+        <div class="fuel">
+            <svg viewBox="0 0 230 230">
+              <path class="fuel-background" d="M6.16935 118.013C16.5177 100.089 21.9656 79.7575 21.9656 59.0609C21.9656 38.3643 16.5177 18.0323 6.16936 0.108491L0.553387 3.35087C10.3325 20.2889 15.4808 39.5026 15.4808 59.0609C15.4808 78.6192 10.3325 97.8329 0.553377 114.771L6.16935 118.013Z "></path>
+              <path class="fuel-prog" d="M6.16935 118.013C16.5177 100.089 21.9656 79.7575 21.9656 59.0609C21.9656 38.3643 16.5177 18.0323 6.16936 0.108491L0.553387 3.35087C10.3325 20.2889 15.4808 39.5026 15.4808 59.0609C15.4808 78.6192 10.3325 97.8329 0.553377 114.771L6.16935 118.013Z "></path>
+            </svg>
+            <i id="fuel" data-fuel="low" class="fa-solid fa-gas-pump"></i>
+        </div>
+
+        <div class="speed-write">
+            <div class="gears">
+                <span id="last-gear">2</span>
+                <span id="now-gear">3</span>
+                <span id="next-gear">4</span>
+            </div>
+            <div class="speed">
+                <span class="meter" id="speed" data-number="1" data-active="true">20</span>
+            </div>
+            <span id="kmh">km/h</span>
+        </div>
+
+        <div class="icon-row top">
+            <img class="row-image" data-state="false" id="belt" src="img/speedm-images/belt.png">
+            <img class="row-image" id="door" src="img/speedm-images/door.png">
+            <img class="row-image" id="lights" src="img/speedm-images/lights.png">
+        </div>
+
+        <div class="icon-row bottom">
+            <img class="row-image" style="width: 2.25vh;" id="engine" src="img/speedm-images/engine.png">
+            <img class="row-image" id="brake" src="img/speedm-images/brake.png">
+            <img class="row-image" id="spped-limiter" src="img/speedm-images/meter.png">
+            <img class="row-image" style="width: 1.5vh;" id="wrench" src="img/speedm-images/wrench.png">
+        </div>
+
+    </div>
+
+    <div class="notification-list">
+    </div>
+
+    <div class="status-containter" data-hud="health">
+        <div class="status-bar">
+            <img src="img/healt.png">
+            <svg data-hud="health" width="100" height="100" viewBox="0 0 100 0" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path id="path2" d="M0 26.573C57.3265 56.358 78.4587 55.1904 99.7905 26.573V100H0V26.573Z" fill="url(#paint1_radial_68_26)"/>
+                <path id="path1" data-hud="health" data-visible="true" d="M100 21.9178C51.6237 -31.3826 21.5006 46.6379 1.6948e-05 0V100H100V21.9178Z" fill="url(#paint1_radial_68_26)"/>
+                <path id="path3" data-hud="health" data-visible="false" d="M100 4.49139e-05C46.5 -5.3435e-05 52 0.000110868 0 0.000149952V100H100V4.49139e-05Z" fill="url(#paint1_radial_68_26)"/>
+                <defs>
+                    <radialGradient data-hud="health" id="paint1_radial_68_26" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(49.8953 63.2865) rotate(65.8429) scale(74.7263 113.444)">
+                        <stop stop-color="#CAAC42"/>
+                        <stop offset="1" stop-color="#FFD540" stop-opacity="0"/>
+                    </radialGradient>
+                </defs>
+            </svg>
+        </div>
+        <div class="status-value">
+            <span id="health-value">100%</span>
+        </div>
+    </div>
+
+    <div class="status-containter" data-hud="armour">
+        <div class="status-bar">
+            <img src="img/armour.png">
+            <svg data-hud="armour" width="100" height="100" viewBox="0 0 100 0" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path id="path2" d="M0 26.573C57.3265 56.358 78.4587 55.1904 99.7905 26.573V100H0V26.573Z" fill="url(#paint1_radial_68_27)"/>
+                <path id="path1" data-hud="armour" data-visible="true" d="M100 21.9178C51.6237 -31.3826 21.5006 46.6379 1.6948e-05 0V100H100V21.9178Z" fill="url(#paint1_radial_68_27)"/>
+                <path id="path3" data-hud="armour" data-visible="false" d="M100 4.49139e-05C46.5 -5.3435e-05 52 0.000110868 0 0.000149952V100H100V4.49139e-05Z" fill="url(#paint1_radial_68_27)"/>
+                <defs>
+                    <radialGradient data-hud="armour" id="paint1_radial_68_27" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(49.8953 63.2865) rotate(65.8429) scale(74.7263 113.444)">
+                        <stop stop-color="#7E42CA"/>
+                        <stop offset="1" stop-color="#7E3FCD" stop-opacity="0"/>
+                    </radialGradient>
+                </defs>
+            </svg>
+        </div>
+        <div class="status-value">
+            <span id="armour-value">100%</span>
+        </div>
+    </div>
+
+    <div class="status-containter" data-hud="hunger">
+        <div class="status-bar">
+            <img src="img/hunger.png">
+            <svg data-hud="hunger" width="100" height="100" viewBox="0 0 100 0" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path id="path2" d="M0 26.573C57.3265 56.358 78.4587 55.1904 99.7905 26.573V100H0V26.573Z" fill="url(#paint1_radial_68_28)"/>
+                <path id="path1" data-hud="hunger" data-visible="true" d="M100 21.9178C51.6237 -31.3826 21.5006 46.6379 1.6948e-05 0V100H100V21.9178Z" fill="url(#paint1_radial_68_28)"/>
+                <path id="path3" data-hud="hunger" data-visible="false" d="M100 4.49139e-05C46.5 -5.3435e-05 52 0.000110868 0 0.000149952V100H100V4.49139e-05Z" fill="url(#paint1_radial_68_28)"/>
+                <defs>
+                    <radialGradient data-hud="hunger" id="paint1_radial_68_28" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(49.8953 63.2865) rotate(65.8429) scale(74.7263 113.444)">
+                        <stop stop-color="#42B2CA"/>
+                        <stop offset="1" stop-color="#42B2CA" stop-opacity="0"/>
+                    </radialGradient>
+                </defs>
+            </svg>
+        </div>
+        <div class="status-value">
+            <span id="hunger-value">30%</span>
+        </div>
+    </div>
+
+    <div class="status-containter" data-hud="thirst">
+        <div class="status-bar">
+            <img src="img/thirst.png">
+            <svg data-hud="thirst" width="100" height="100" viewBox="0 0 100 0" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path id="path2" d="M0 26.573C57.3265 56.358 78.4587 55.1904 99.7905 26.573V100H0V26.573Z" fill="url(#paint1_radial_68_29)"/>
+                <path id="path1" data-hud="thirst" data-visible="true" d="M100 21.9178C51.6237 -31.3826 21.5006 46.6379 1.6948e-05 0V100H100V21.9178Z" fill="url(#paint1_radial_68_29)"/>
+                <path id="path3" data-hud="thirst" data-visible="false" d="M100 4.49139e-05C46.5 -5.3435e-05 52 0.000110868 0 0.000149952V100H100V4.49139e-05Z" fill="url(#paint1_radial_68_29)"/>
+                <defs>
+                    <radialGradient data-hud="thirst" id="paint1_radial_68_29" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(49.8953 63.2865) rotate(65.8429) scale(74.7263 113.444)">
+                        <stop stop-color="#55CA42"/>
+                        <stop offset="1" stop-color="#57D143" stop-opacity="0"/>
+                    </radialGradient>
+                </defs>
+            </svg>
+        </div>
+        <div class="status-value">
+            <span id="thirst-value">60%</span>
+        </div>
+    </div>
+
+    <div class="status-containter" data-hud="stamina" style="display: none;">
+        <div class="status-bar">
+            <img id="stamina-image" src="img/stamina.png">
+            <svg data-hud="stamina" width="100" height="100" viewBox="0 0 100 0" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path id="path2" d="M0 26.573C57.3265 56.358 78.4587 55.1904 99.7905 26.573V100H0V26.573Z" fill="url(#paint1_radial_68_30)"/>
+                <path id="path1" data-hud="stamina" data-visible="true" d="M100 21.9178C51.6237 -31.3826 21.5006 46.6379 1.6948e-05 0V100H100V21.9178Z" fill="url(#paint1_radial_68_30)"/>
+                <path id="path3" data-hud="stamina" data-visible="false" d="M100 4.49139e-05C46.5 -5.3435e-05 52 0.000110868 0 0.000149952V100H100V4.49139e-05Z" fill="url(#paint1_radial_68_30)"/>
+                <defs>
+                    <radialGradient data-hud="stamina" id="paint1_radial_68_30" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(49.8953 63.2865) rotate(65.8429) scale(74.7263 113.444)">
+                        <stop stop-color="#C7C7C7"/>
+                        <stop offset="1" stop-color="#C7C7C7" stop-opacity="0"/>
+                    </radialGradient>
+                </defs>
+            </svg>
+        </div>
+        <div class="status-value">
+            <span id="stamina-value">25%</span>
+        </div>
+    </div>
+
+    <div class="status-containter" data-hud="stress" style="display: none;">
+        <div class="status-bar">
+            <img id="stress-image" src="img/stress.png">
+            <svg data-hud="stress" width="100" height="100" viewBox="0 0 100 0" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path id="path2" d="M0 26.573C57.3265 56.358 78.4587 55.1904 99.7905 26.573V100H0V26.573Z" fill="url(#paint1_radial_68_31)"/>
+                <path id="path1" data-hud="stress" data-visible="true" d="M100 21.9178C51.6237 -31.3826 21.5006 46.6379 1.6948e-05 0V100H100V21.9178Z" fill="url(#paint1_radial_68_31)"/>
+                <path id="path3" data-hud="stress" data-visible="false" d="M100 4.49139e-05C46.5 -5.3435e-05 52 0.000110868 0 0.000149952V100H100V4.49139e-05Z" fill="url(#paint1_radial_68_31)"/>
+                <defs>
+                    <radialGradient data-hud="stress" id="paint1_radial_68_31" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(49.8953 63.2865) rotate(65.8429) scale(74.7263 113.444)">
+                        <stop stop-color="#F16450"/>
+                        <stop offset="1" stop-color="#F16450" stop-opacity="0"/>
+                    </radialGradient>
+                </defs>
+            </svg>
+        </div>
+        <div class="status-value">
+            <span id="stress-value">25%</span>
+        </div>
+    </div>
+
+    <div class="street-mic">
+        <div class="icon-div start location" id="location">
+            <div class="icons">
+                <div class="icon-box _3_5vh">
+                    <i class="fa-solid fa-location-arrow"></i>
+                </div>
+            </div>
+            <div class="icon-texts direction location">
+                <span id="title" data-location="first">Los Santos</span>
+                <span id="content" data-location="second">Oceaon Drive Highway</span>
+            </div>
+        </div>
+    
+        <div class="icon-div end microphone">
+            <div class="icon-texts direction" id="mic-range">
+                <span id="title" data-mic="label">Whisper</span>
+                <span id="content" data-mic="meters">35 meters</span>
+            </div>
+            <div class="icons">
+                <div class="icon-box _3_5vh mic">
+                    <i style="display: none;" id="player-radio" class="fa-solid fa-tower-broadcast"></i>
+                    <i id="player-mic-muted"  class="fa-solid fa-microphone-slash"></i>
+                    <i style="display: none;" id="player-mic-activeted" class="fa-solid fa-microphone"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="settings-menu"> 
+        <div class="header">
+            <img src="img/settings.png">
+            <div class="slogans">
+                <span id="hud">Settings</span>
+                <span id="hud-slogan">Settings panel for your amazing hud</span>
+            </div>
+            <div class="close">
+                <i class="fa-solid fa-xmark"></i>
+            </div>
+        </div>
+        <div class="optionlist">
+
+            <div class="option el1">
+                <div class="option-icon">
+                    <img src="img/hudtype.png">
+                </div>
+                <div class="option-about">
+                    <span id="option-title">Hud Type</span>
+                    <span id="option-content">Hud sets its appearance to round or square.</span>
+                </div>
+                <div class="option-input">
+                    <div class="option-selection">
+                        <div class="selection" data-option="hudtype" data-value="rounded" data-position="left" data-active="true">
+                            <span>Rounded</span>
+                        </div>
+                        <div class="selection" data-option="hudtype" data-value="squared" data-position="right" data-active="false">
+                            <span>squared</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="option el2">
+                <div class="option-icon">
+                    <img src="img/colorpalette.png">
+                </div>
+                <div class="option-about">
+                    <span id="option-title">Hud Colors</span>
+                    <span id="option-content">Customize the colors of the huds</span>
+                </div>
+                <div class="option-input">
+                    <div class="color-input" data-hud="health">
+                        <input type="color" id="health"> 
+                        <img src="img/healt.png">
+                    </div>
+                    <div class="color-input" data-hud="armour">
+                        <input type="color" id="armour">
+                        <img src="img/armour.png">
+                    </div>
+                    <div class="color-input" data-hud="hunger">
+                        <input type="color" id="hunger">
+                        <img src="img/hunger.png">
+                    </div>
+                    <div class="color-input" data-hud="thirst">
+                        <input type="color" id="thirst">
+                        <img src="img/thirst.png">
+                    </div>
+                    <div class="color-input" data-hud="stamina">
+                        <input type="color" id="stamina">
+                        <img src="img/stamina.png">
+                    </div>
+                    <div class="color-input" data-hud="stress" style="display: none;">
+                        <input type="color" id="stress">
+                        <img src="img/stress.png">
+                    </div>
+                </div>
+            </div>
+
+            <div class="option el1">
+                <div class="option-icon">
+                    <img src="img/maptype.png">
+                </div>
+                <div class="option-about">
+                    <span id="option-title">Map Type</span>
+                    <span id="option-content">Select minimap view type.</span>
+                </div>
+                <div class="option-input">
+                    <div class="option-selection">
+                        <div class="selection" data-option="maptype" data-value="rounded" data-position="left" data-active="true">
+                            <span>Rounded</span>
+                        </div>
+                        <div class="selection" data-option="maptype" data-value="squared" data-position="right" data-active="false">
+                            <span>squared</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="option el2">
+                <div class="option-icon">
+                    <img src="img/speed.png">
+                </div>
+                <div class="option-about">
+                    <span id="option-title">Speed Type</span>
+                    <span id="option-content">Allows you to select the speed type you want to see in the speed meter system.</span>
+                </div>
+                <div class="option-input">
+                    <div class="option-selection">
+                        <div class="selection" data-option="speedtype" data-value="mph" data-position="right" data-active="false">
+                            <span>MP/H</span>
+                        </div>
+                        <div class="selection" data-option="speedtype" data-value="kmh" data-position="left" data-active="true">
+                            <span>KM/H</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="option el1">
+                <div class="option-icon">
+                    <img src="img/clock-date.png">
+                </div>
+                <div class="option-about">
+                    <span id="option-title">Clock and Date</span>
+                    <span id="option-content">Customize date information in real time</span>
+                </div>
+                <div class="option-input">
+                    <div class="option-selection">
+                        <div class="selection" data-option="clock_date" data-value="hide" data-position="right" data-active="false">
+                            <span>Hide</span>
+                        </div>
+                        <div class="selection" data-option="clock_date" data-value="show" data-position="left" data-active="true">
+                            <span>Show</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="option el2">
+                <div class="option-icon">
+                    <img src="img/job.png">
+                </div>
+                <div class="option-about">
+                    <span id="option-title">Job</span>
+                    <span id="option-content">Show or turn off your occupation information</span>
+                </div>
+                <div class="option-input">
+                    <div class="option-selection">
+                        <div class="selection" data-option="show_job" data-value="hide" data-position="right" data-active="false">
+                            <span>Hide</span>
+                        </div>
+                        <div class="selection" data-option="show_job" data-value="show" data-position="left" data-active="true">
+                            <span>Show</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="option el1">
+                <div class="option-icon">
+                    <img src="img/money.png">
+                </div>
+                <div class="option-about">
+                    <span id="option-title">Money and Bank</span>
+                    <span id="option-content">It allows you to see the money in your pocket and in your bank.</span>
+                </div>
+                <div class="option-input">
+                    <div class="option-selection">
+                        <div class="selection" data-option="show_moneys" data-value="hide" data-position="right" data-active="false">
+                            <span>Hide</span>
+                        </div>
+                        <div class="selection" data-option="show_moneys" data-value="show" data-position="left" data-active="true">
+                            <span>Show</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="option el2">
+                <div class="option-icon">
+                    <img src="img/keybind.png">
+                </div>
+                <div class="option-about">
+                    <span id="option-title">Hotkey Showing</span>
+                    <span id="option-content">You can turn off or turn on the system that displays hotkeys on the server.</span>
+                </div>
+                <div class="option-input">
+                    <div class="option-selection">
+                        <div class="selection" data-option="show_hotkeys" data-value="hide" data-position="right" data-active="false">
+                            <span>Hide</span>
+                        </div>
+                        <div class="selection" data-option="show_hotkeys" data-value="show" data-position="left" data-active="true">
+                            <span>Show</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="option el1">
+                <div class="option-icon">
+                    <img src="img/cinematic.png">
+                </div>
+                <div class="option-about">
+                    <span id="option-title">Cinematic mode</span>
+                    <span id="option-content">Turn on cinematic mode to make the game more beautiful</span>
+                </div>
+                <div class="option-input">
+                    <div class="option-selection">
+                        <div class="selection" data-option="cinematic" data-value="hide" data-position="right" data-active="true">
+                            <span>Hide</span>
+                        </div>
+                        <div class="selection" data-option="cinematic" data-value="show" data-position="left" data-active="false">
+                            <span>Show</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="option el2">
+                <div class="option-icon">
+                    <img src="img/editor.png">
+                </div>
+                <div class="option-about">
+                    <span id="option-title">Editor mode</span>
+                    <span id="option-content">With this mod, you can move some content around and create your own layout</span>
+                </div>
+                <div class="option-input">
+                    <div class="item-button editor">
+                        <span>Editor mode</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="resetbutton">
+            <span>Reset all settings</span>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

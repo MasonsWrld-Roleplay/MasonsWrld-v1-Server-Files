@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SInteriorOrderData>
+  <startFrom value="3000" />
+  <proxies>
+	<Item>caserio_v4_mlo_01</Item>
+	<Item>caserio_v4_mlo_02</Item>
+	<Item>caserio_v4_mlo_03</Item>
+	<Item>caserio_v4_mlo_04</Item>
+	<Item>caserio_v4_mlo_05</Item>
+	<Item>caserio_v4_mlo_06</Item>
+	<Item>caserio_v4_mlo_07</Item>
+	<Item>caserio_v4_mlo_08</Item>
+	<Item>caserio_v4_mlo_09</Item>
+	<Item>caserio_v4_mlo_010</Item>
+	<Item>caserio_v4_mlo_011</Item>
+	<Item>caserio_v4_mlo_012</Item>
+	<Item>caserio_v4_mlo_013</Item>
+	<Item>caserio_v4_mlo_014</Item>
+	<Item>caserio_v4_mlo_2_001</Item>	
+	<Item>caserio_v4_mlo_2_002</Item>	
+	<Item>caserio_v4_mlo_2_003</Item>	
+	<Item>caserio_v4_mlo_2_004</Item>	
+	<Item>caserio_v4_mlo_3_001</Item>	
+	<Item>caserio_v4_mlo_3_002</Item>
+	<Item>caserio_v4_mlo_3_003</Item>
+	<Item>caserio_v4_mlo_3_004</Item>
+	<Item>caserio_v4_mlo_3_005</Item>
+	<Item>caserio_v4_mlo_3_006</Item>	
+	
+	
+
+  </proxies>
+</SInteriorOrderData>

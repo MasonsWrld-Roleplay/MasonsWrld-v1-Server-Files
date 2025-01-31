@@ -1,0 +1,82 @@
+Thankyou for your purchase if you like our products and want to help us grow please like and subscribe on our socials
+
+Youtube: https://www.youtube.com/channel/UCqpCdv81FeimPyC5CeoXniA
+
+Facebook: https://www.facebook.com/Wizating-Scripts-102266902428432
+
+Instgram: https://www.instagram.com/wizatingscripts/
+
+If your not in the discord already Join and open a ticket with your tebex id to get your roles:
+
+https://discord.gg/B9XbFxPxxb
+---------------------------------------------------------------------------------------------------------------
+This script is encrypted to the keymaster account that owns asset!.. 
+
+If your server does not use one of the keys from the keymaster that owns the script it will not work!
+---------------------------------------------------------------------------------------------------------------
+
+Wizating Laptop Standalone Install
+
+
+Step 1 : Set up your Config so all frameworks are turned off.
+
+Step 2 : Add SQL to database
+
+Step 3 : Go to the MANIFESTS folder and copy the ESXorSTANDALONE manifest to the main folder and rename it to fxmanifest.lua
+
+Step 4 : add wizating_laptop to your servers config
+
+Step 5 : Start Server
+
+---------------------------------------------------------------------------------------------------------------------------
+
+Wizating QB Core Install
+
+Step 1: Setup your Config so that QB is true. Make sure to set up the server tables if you want to use Owned Vehicles!! ( Make sure all other frameworks are set to false in config)ble.
+
+Step 2: Add the item into the item lua files (if using the official qb core, there will be 3 files you will need to edit to add them in, refer to the qb core official docs for help)
+
+Step 3: Copy the QB manifest and rename to fxmanifest.lua. If using oxmysql, edit the manifest to match your path for ox.
+
+Step 4 : add wizating_laptop to your server config
+
+Step 5 : Start Server
+
+----------------------------------------------------------------------------------------------------------------------
+
+Wizating Laptop ESX Install
+
+Step 1 : Setup your Config so that ESX is true. Make sure to set up the server tables if you want to use Owned Vehicles!! ( Make sure all other frameworks are set to false in config)
+
+Step 2 : Add the item to your database
+
+Step 3 : Go to the MANIFESTS folder and copy the ESXorSTANDALONE manifest to the main folder and rename it to fxmanifest.lua
+
+Step 4 : add wizating_laptop to your servers config
+
+Step 5 : Add SQL to database
+
+Step 6 : Start Server
+
+---------------------------------------------------------------------------------------------------------------------------
+
+Wizating Laptop VRP Install
+
+Step 1 : Setup your Config so that VRP is true. Make sure to set up the server tables if you want to use Owned Vehicles!! ( Make sure all other frameworks are set to false in config)
+
+Step 2 : Add SQL to your database
+
+Step 2 : Go to the MANIFESTS folder and copy the VRP manifest to the main folder and rename it to fxmanifest.lua
+
+Step 3 : Go to your main VRP folder then find location vrp/cfg/items.lua. Underneath the function load_item_pack copy and paste the following :
+ load_item_pack("wizating")
+
+Here is a screen shot showing you : https://discord.com/channels/@me/757372920879120385/954775686768390234
+
+Step 4 : place the wizating.lua from MANIFESTS folder inside the folder : vrp/cfg/item
+
+Step 5 : add wizating_laptop to your server config
+
+Step 6 : Add SQL to database
+
+Step 7 : Start Server

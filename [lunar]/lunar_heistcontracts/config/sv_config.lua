@@ -1,0 +1,3 @@
+SvConfig = {}
+SvConfig.webhook = 'https://discord.com/api/webhooks/1301771646087991307/h2w4hpfKzgFRlRDKJrZtZoOYtwEMUqNSDgY0AySM2piJKn0rZ-c2KuUz5NgfOmHLCPax' -- This webhook is used for action inside the tablet and the shop
+SvConfig.itemWebhook = 'https://discord.com/api/webhooks/1301771863403270164/HtOFpD1cgtlrKymrMkQ7iKQBHCw6ifELS3LW_nB51fc7Wjnv5v876lWncxedg6Ezojbz' -- This webhook is used for item related actions

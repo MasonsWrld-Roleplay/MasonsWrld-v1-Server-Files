@@ -1,0 +1,165 @@
+{
+    "hudType": "newest",
+    "carhudType": "new",
+    "mapType": "squared",
+    "speedType": "kmh",
+    "hidedElements": {
+        "serverInfo": false,
+        "cash": false,
+        "bank": false,
+        "job": false,
+        "weapon": false,
+        "keybinds": false,
+        "location": false
+    },
+    "elementsColors": {
+        "primary": "#67C8FF",
+        "health": "#D35959",
+        "armour": "#5991D3",
+        "hunger": "#9D61FF",
+        "thirst": "#77FF61",
+        "stamina": "#C7C7C7",
+        "stress": "#FF61C9",
+        "carhud": "#67C8FF"
+    },
+    "elementsPositions": {
+        "serverInfo": {
+            "top": null,
+            "left": null
+        },
+        "cash": {
+            "top": null,
+            "left": null
+        },
+        "bank": {
+            "top": null,
+            "left": null
+        },
+        "job": {
+            "top": null,
+            "left": null
+        },
+        "job2": {
+            "top": null,
+            "left": null
+        },
+        "gang": {
+            "top": null,
+            "left": null
+        },
+        "weapon": {
+            "top": null,
+            "left": null
+        },
+        "keybinds": {
+            "top": null,
+            "left": null
+        },
+        "mic": {
+            "top": null,
+            "left": null
+        },
+        "location": {
+            "top": null,
+            "left": null
+        },
+        "notifications": {
+            "top": null,
+            "left": null
+        },
+        "huds": {
+            "old": {
+                "health": {
+                    "top": null,
+                    "left": null
+                },
+                "armour": {
+                    "top": null,
+                    "left": null
+                },
+                "hunger": {
+                    "top": null,
+                    "left": null
+                },
+                "thirst": {
+                    "top": null,
+                    "left": null
+                },
+                "stamina": {
+                    "top": null,
+                    "left": null
+                },
+                "stress": {
+                    "top": null,
+                    "left": null
+                }
+            },
+            "new": {
+                "health": {
+                    "top": null,
+                    "left": null
+                },
+                "armour": {
+                    "top": null,
+                    "left": null
+                },
+                "hunger": {
+                    "top": null,
+                    "left": null
+                },
+                "thirst": {
+                    "top": null,
+                    "left": null
+                },
+                "stamina": {
+                    "top": null,
+                    "left": null
+                },
+                "stress": {
+                    "top": null,
+                    "left": null
+                }
+            },
+            "newest": {
+                "health": {
+                    "top": null,
+                    "left": null
+                },
+                "armour": {
+                    "top": null,
+                    "left": null
+                },
+                "hunger": {
+                    "top": null,
+                    "left": null
+                },
+                "thirst": {
+                    "top": null,
+                    "left": null
+                },
+                "stamina": {
+                    "top": null,
+                    "left": null
+                },
+                "stress": {
+                    "top": null,
+                    "left": null
+                }
+            }
+        },
+        "carhud": {
+            "old": {
+                "top": null,
+                "left": null
+            },
+            "new": {
+                "top": null,
+                "left": null
+            },
+            "newest": {
+                "top": null,
+                "left": null
+            }
+        }
+    }
+}

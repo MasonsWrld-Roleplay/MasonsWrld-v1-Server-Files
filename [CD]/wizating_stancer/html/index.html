@@ -1,0 +1,177 @@
+<html>
+   <head>
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap" rel="stylesheet">
+   </head>
+ <body >
+
+  
+
+   <div id = "mainbg" class = "mainbg main-border" >
+      <div class="sliders">
+         <div class="camberDiv">        
+          <p>Camber: <span id="cambervalue"></span> (Deg)</p>
+          <div class="slidertextleft">-25.0</div><div class="slidertextright">9.0</div>
+          <input type="range" min = "-25" max = "9" step = "0.1" value = 0 id = "camber" class = "slider" >
+         </div>
+
+         <div class="offsetDiv">
+          <p>Offset: <span id="offsetvalue"></span> (CM)</p>
+          <div class="slidertextleft">-100</div><div class="slidertextright">200</div>
+          <input type="range" min = "-100" max = "200" step = "1" value = 0 id = "offset" class = "slider2" >
+         </div>
+
+         <div class="rideHeightDiv">
+            <p>Height: <span id="rideHeightvalue"></span> (Inch)</p>
+            <div class="slidertextleft">-15</div><div class="slidertextright">15</div>
+            <input type="range" min = "-15" max = "15" step = "0.1" value = 0 id = "rideHeight" class = "slider3">      
+         </div>
+
+         <div class="wheelWidthDiv">
+          <p>Width: <span id="wheelWidthvalue"></span> (MM)</p>
+          <div class="slidertextleft">100</div><div class="slidertextright">450</div>
+          <input type="range" min = "100" max = "450" step = "1" value = 225 id = "wheelWidth" class = "slider4" >
+         </div>
+         
+         <div class="wheelSizeDiv">
+          <p>Size: <span id="wheelSizevalue"></span> (Inch)</p>
+          <div class="slidertextleft">14</div><div class="slidertextright">32</div>
+          <input type="range" min = "14" max = "32" step = "1" value = 16 id = "wheelSize" class = "slider5">
+         </div>
+  
+      </div>
+         <div class = "savebutton" onclick = "save()">SAVE</div>
+         <div class = "presets" onclick = "presets()">PRESETS</div>
+         <div class = "theme" onclick = "theme()">THEME</div>
+         <div id = "mainbgmove"></div>
+         <div class = "modeswitch" onclick = "changemode()">
+            <img id = "modeimg" src="images/fl.png" alt="fl" >
+         </div>
+      <div class = "presetsMain">
+         <div class = "presettab sub-border">
+            <div class ="preset-input-save">            
+               <input type="text" class="preset-save-name" id="presetname" placeholder="Preset Name">         
+               <button type="button" class="preset-save-button" onclick="savePreset()">Save</button>            
+            </div>  
+            <div class = "line"></div>
+            <div class="loaded-presets"> 
+               <div class="player-preset">       
+               </div>     
+            </div>
+
+         </div>
+         <div class="preset-bottom-buttons">               
+            <div class="test btn">
+                <h4 onclick="activatePreset()">SELECT</h4>
+            </div>
+
+            <div class="test1 btn">
+                <h4 onclick="activateDefault()">DEFAULT</h4>
+            </div>
+     
+            <div class="test2 btn">
+                <h4 onclick="removePreset()" >DELETE </h4>
+            </div>
+         </div>
+      </div>
+
+      <div class = "themesMain">
+         <div class = "themetab sub-border">
+            <div class = "themeName center-text">-------MAIN-------</div>
+            <div class = "themeName">Image BG :            
+               <input type="text" class="themeInput bg-url" id="bgimg" value="https://cdn.discordapp.com/attachments/757372920879120385/1041072486500012115/stancerbackgroundnew.png">         
+            </div>
+            <div class = "themeName">Main Txt BG :
+               <label for="colorpicker"></label>
+               <input type="color" id="mainbg-colour" class="themeColour" value="#0000ff">       
+            </div>
+            <div class = "themeName">Sub Txt BG :
+               <label for="colorpicker"></label>
+               <input type="color" id="subbg-colour" class="themeColour" value="#0000ff">       
+            </div>
+            <div class = "themeName">Slider :
+               <label for="colorpicker"></label>
+               <input type="color" id="themeslider-colour" class="themeColour" value="#0000ff">       
+            </div>
+
+            <div class = "themeName">Slider Pin :
+               <label for="colorpicker"></label>
+               <input type="color" id="themesliderpin-colour" class="themeColour" value="#0000ff">
+            </div>
+            <div class = "themeName">Border :
+               <label for="colorpicker"></label>
+               <input type="color" id="border-colour" class="themeColour" value="#0000ff">
+            </div>
+            <div class = "themeName">Main Text :
+               <label for="colorpicker"></label>
+               <input type="color" id="maintext-colour" class="themeColour" value="#0000ff">
+            </div>
+            <div class = "themeName">Sub Text :
+               <label for="colorpicker"></label>
+               <input type="color" id="subtext-colour" class="themeColour" value="#0000ff">
+            </div>
+            <div class = "themeName">Hover :
+               <label for="colorpicker"></label>
+               <input type="color" id="hovermain-colour" class="themeColour" value="#0000ff">
+            </div>
+            <div class = "themeName center-text">-----TABS------</div>
+            <div class = "themeName">Background :
+               <label for="colorpicker"></label>
+               <input type="color" id="bgcolour-colour" class="themeColour" value="#0000ff">
+            </div>
+            <div class = "themeName">Button BG :
+               <label for="colorpicker"></label>
+               <input type="color" id="buttonbackground-colour" class="themeColour" value="#0000ff">
+            </div>
+            <div class = "themeName">Button Text :
+               <label for="colorpicker"></label>
+               <input type="color" id="buttontext-colour" class="themeColour" value="#0000ff">
+            </div>
+            <div class = "themeName">Main Text :
+               <label for="colorpicker"></label>
+               <input type="color" id="tabtext-colour" class="themeColour" value="#0000ff">
+            </div>
+            <div class = "themeName">Border :
+               <label for="colorpicker"></label>
+               <input type="color" id="buttonborder-colour" class="themeColour" value="#0000ff">
+            </div>
+            
+            <div class = "themeName">Hover :
+               <label for="colorpicker"></label>
+               <input type="color" id="hover-colour" class="themeColour" value="#0000ff">
+            </div>   
+            <div class = "themeName">Hover Text:
+               <label for="colorpicker"></label>
+               <input type="color" id="hovertext-colour" class="themeColour" value="#0000ff">
+            </div> 
+            <div class = "themeName">Underline :
+               <label for="colorpicker"></label>
+               <input type="color" id="underline-colour" class="themeColour" value="#0000ff">
+            </div>
+         </div>
+
+         <div class="theme-bottom-buttons">               
+            <div class="btn">
+             <h4 onclick="saveTheme()">Save</h4>
+            </div>
+
+            <div class="blank"></div>
+  
+            <div class="btn">
+              <h4 onclick="defaultTheme()">DEFAULT</h4>
+            </div>
+         </div>
+      </div>
+   </div>
+
+   <div id = "mainbutton" class = "mainbutton" > 
+      <div class = "mainbuttonText">( E )</div>
+   </div>
+   
+ </body> 
+ <script src="index.js" ></script>
+</html>
