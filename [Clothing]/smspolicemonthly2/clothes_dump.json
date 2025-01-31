@@ -1,0 +1,916 @@
+[
+  {
+    "DlcCollectionName": "mp_m_smspolicemonthly2",
+    "PedName": "mp_m_freemode_01",
+    "ComponentVariations": [
+      {
+        "DrawableName": "Armor",
+        "TextureName": "mp_m_freemode_01_mp_m_genericpolice3^task_diff_000_a_uni",
+        "NameHash": "CLO_DCT_ARMOR_0_0_M",
+        "ComponentType": "PV_COMP_TASK",
+        "ComponentId": 9,
+        "DrawableId": 62,
+        "TextureId": 0,
+        "RelativeCollectionDrawableId": 0
+      },
+      {
+        "DrawableName": "Armor",
+        "TextureName": "mp_m_freemode_01_mp_m_genericpolice3^task_diff_000_b_uni",
+        "NameHash": "CLO_DCT_ARMOR_0_1_M",
+        "ComponentType": "PV_COMP_TASK",
+        "ComponentId": 9,
+        "DrawableId": 62,
+        "TextureId": 1,
+        "RelativeCollectionDrawableId": 0
+      },
+      {
+        "DrawableName": "Armor",
+        "TextureName": "mp_m_freemode_01_mp_m_genericpolice3^task_diff_000_c_uni",
+        "NameHash": "CLO_DCT_ARMOR_0_2_M",
+        "ComponentType": "PV_COMP_TASK",
+        "ComponentId": 9,
+        "DrawableId": 62,
+        "TextureId": 2,
+        "RelativeCollectionDrawableId": 0
+      },
+      {
+        "DrawableName": "Armor",
+        "TextureName": "mp_m_freemode_01_mp_m_genericpolice3^task_diff_000_d_uni",
+        "NameHash": "CLO_DCT_ARMOR_0_3_M",
+        "ComponentType": "PV_COMP_TASK",
+        "ComponentId": 9,
+        "DrawableId": 62,
+        "TextureId": 3,
+        "RelativeCollectionDrawableId": 0
+      },
+      {
+        "DrawableName": "Armor",
+        "TextureName": "mp_m_freemode_01_mp_m_genericpolice3^task_diff_000_e_uni",
+        "NameHash": "CLO_DCT_ARMOR_0_4_M",
+        "ComponentType": "PV_COMP_TASK",
+        "ComponentId": 9,
+        "DrawableId": 62,
+        "TextureId": 4,
+        "RelativeCollectionDrawableId": 0
+      },
+      {
+        "DrawableName": "Armor",
+        "TextureName": "mp_m_freemode_01_mp_m_genericpolice3^task_diff_000_f_uni",
+        "NameHash": "CLO_DCT_ARMOR_0_5_M",
+        "ComponentType": "PV_COMP_TASK",
+        "ComponentId": 9,
+        "DrawableId": 62,
+        "TextureId": 5,
+        "RelativeCollectionDrawableId": 0
+      },
+      {
+        "DrawableName": "Armor",
+        "TextureName": "mp_m_freemode_01_mp_m_genericpolice3^task_diff_000_g_uni",
+        "NameHash": "CLO_DCT_ARMOR_0_6_M",
+        "ComponentType": "PV_COMP_TASK",
+        "ComponentId": 9,
+        "DrawableId": 62,
+        "TextureId": 6,
+        "RelativeCollectionDrawableId": 0
+      },
+      {
+        "DrawableName": "Armor",
+        "TextureName": "mp_m_freemode_01_mp_m_genericpolice3^task_diff_000_h_uni",
+        "NameHash": "CLO_DCT_ARMOR_0_7_M",
+        "ComponentType": "PV_COMP_TASK",
+        "ComponentId": 9,
+        "DrawableId": 62,
+        "TextureId": 7,
+        "RelativeCollectionDrawableId": 0
+      },
+      {
+        "DrawableName": "Armor",
+        "TextureName": "mp_m_freemode_01_mp_m_genericpolice3^task_diff_000_i_uni",
+        "NameHash": "CLO_DCT_ARMOR_0_8_M",
+        "ComponentType": "PV_COMP_TASK",
+        "ComponentId": 9,
+        "DrawableId": 62,
+        "TextureId": 8,
+        "RelativeCollectionDrawableId": 0
+      },
+      {
+        "DrawableName": "Armor",
+        "TextureName": "mp_m_freemode_01_mp_m_genericpolice4^task_diff_000_a_uni",
+        "NameHash": "CLO_DCT_ARMOR_1_0_M",
+        "ComponentType": "PV_COMP_TASK",
+        "ComponentId": 9,
+        "DrawableId": 63,
+        "TextureId": 0,
+        "RelativeCollectionDrawableId": 1
+      },
+      {
+        "DrawableName": "Armor",
+        "TextureName": "mp_m_freemode_01_mp_m_genericpolice4^task_diff_000_b_uni",
+        "NameHash": "CLO_DCT_ARMOR_1_1_M",
+        "ComponentType": "PV_COMP_TASK",
+        "ComponentId": 9,
+        "DrawableId": 63,
+        "TextureId": 1,
+        "RelativeCollectionDrawableId": 1
+      },
+      {
+        "DrawableName": "Armor",
+        "TextureName": "mp_m_freemode_01_mp_m_genericpolice4^task_diff_000_c_uni",
+        "NameHash": "CLO_DCT_ARMOR_1_2_M",
+        "ComponentType": "PV_COMP_TASK",
+        "ComponentId": 9,
+        "DrawableId": 63,
+        "TextureId": 2,
+        "RelativeCollectionDrawableId": 1
+      },
+      {
+        "DrawableName": "Armor",
+        "TextureName": "mp_m_freemode_01_mp_m_genericpolice4^task_diff_000_d_uni",
+        "NameHash": "CLO_DCT_ARMOR_1_3_M",
+        "ComponentType": "PV_COMP_TASK",
+        "ComponentId": 9,
+        "DrawableId": 63,
+        "TextureId": 3,
+        "RelativeCollectionDrawableId": 1
+      },
+      {
+        "DrawableName": "Armor",
+        "TextureName": "mp_m_freemode_01_mp_m_genericpolice4^task_diff_000_e_uni",
+        "NameHash": "CLO_DCT_ARMOR_1_4_M",
+        "ComponentType": "PV_COMP_TASK",
+        "ComponentId": 9,
+        "DrawableId": 63,
+        "TextureId": 4,
+        "RelativeCollectionDrawableId": 1
+      },
+      {
+        "DrawableName": "Armor",
+        "TextureName": "mp_m_freemode_01_mp_m_genericpolice4^task_diff_000_f_uni",
+        "NameHash": "CLO_DCT_ARMOR_1_5_M",
+        "ComponentType": "PV_COMP_TASK",
+        "ComponentId": 9,
+        "DrawableId": 63,
+        "TextureId": 5,
+        "RelativeCollectionDrawableId": 1
+      },
+      {
+        "DrawableName": "Armor",
+        "TextureName": "mp_m_freemode_01_mp_m_genericpolice4^task_diff_000_g_uni",
+        "NameHash": "CLO_DCT_ARMOR_1_6_M",
+        "ComponentType": "PV_COMP_TASK",
+        "ComponentId": 9,
+        "DrawableId": 63,
+        "TextureId": 6,
+        "RelativeCollectionDrawableId": 1
+      },
+      {
+        "DrawableName": "Armor",
+        "TextureName": "mp_m_freemode_01_mp_m_genericpolice4^task_diff_000_h_uni",
+        "NameHash": "CLO_DCT_ARMOR_1_7_M",
+        "ComponentType": "PV_COMP_TASK",
+        "ComponentId": 9,
+        "DrawableId": 63,
+        "TextureId": 7,
+        "RelativeCollectionDrawableId": 1
+      },
+      {
+        "DrawableName": "Armor",
+        "TextureName": "mp_m_freemode_01_mp_m_genericpolice4^task_diff_000_i_uni",
+        "NameHash": "CLO_DCT_ARMOR_1_8_M",
+        "ComponentType": "PV_COMP_TASK",
+        "ComponentId": 9,
+        "DrawableId": 63,
+        "TextureId": 8,
+        "RelativeCollectionDrawableId": 1
+      },
+      {
+        "DrawableName": "Armor",
+        "TextureName": "mp_m_freemode_01_mp_m_genericpolice5^task_diff_000_a_uni",
+        "NameHash": "CLO_DCT_ARMOR_2_0_M",
+        "ComponentType": "PV_COMP_TASK",
+        "ComponentId": 9,
+        "DrawableId": 64,
+        "TextureId": 0,
+        "RelativeCollectionDrawableId": 2
+      },
+      {
+        "DrawableName": "Armor",
+        "TextureName": "mp_m_freemode_01_mp_m_genericpolice5^task_diff_000_b_uni",
+        "NameHash": "CLO_DCT_ARMOR_2_1_M",
+        "ComponentType": "PV_COMP_TASK",
+        "ComponentId": 9,
+        "DrawableId": 64,
+        "TextureId": 1,
+        "RelativeCollectionDrawableId": 2
+      },
+      {
+        "DrawableName": "Armor",
+        "TextureName": "mp_m_freemode_01_mp_m_genericpolice5^task_diff_000_c_uni",
+        "NameHash": "CLO_DCT_ARMOR_2_2_M",
+        "ComponentType": "PV_COMP_TASK",
+        "ComponentId": 9,
+        "DrawableId": 64,
+        "TextureId": 2,
+        "RelativeCollectionDrawableId": 2
+      },
+      {
+        "DrawableName": "Armor",
+        "TextureName": "mp_m_freemode_01_mp_m_genericpolice5^task_diff_000_d_uni",
+        "NameHash": "CLO_DCT_ARMOR_2_3_M",
+        "ComponentType": "PV_COMP_TASK",
+        "ComponentId": 9,
+        "DrawableId": 64,
+        "TextureId": 3,
+        "RelativeCollectionDrawableId": 2
+      },
+      {
+        "DrawableName": "Armor",
+        "TextureName": "mp_m_freemode_01_mp_m_genericpolice5^task_diff_000_e_uni",
+        "NameHash": "CLO_DCT_ARMOR_2_4_M",
+        "ComponentType": "PV_COMP_TASK",
+        "ComponentId": 9,
+        "DrawableId": 64,
+        "TextureId": 4,
+        "RelativeCollectionDrawableId": 2
+      },
+      {
+        "DrawableName": "Armor",
+        "TextureName": "mp_m_freemode_01_mp_m_genericpolice5^task_diff_000_f_uni",
+        "NameHash": "CLO_DCT_ARMOR_2_5_M",
+        "ComponentType": "PV_COMP_TASK",
+        "ComponentId": 9,
+        "DrawableId": 64,
+        "TextureId": 5,
+        "RelativeCollectionDrawableId": 2
+      },
+      {
+        "DrawableName": "Armor",
+        "TextureName": "mp_m_freemode_01_mp_m_genericpolice5^task_diff_000_g_uni",
+        "NameHash": "CLO_DCT_ARMOR_2_6_M",
+        "ComponentType": "PV_COMP_TASK",
+        "ComponentId": 9,
+        "DrawableId": 64,
+        "TextureId": 6,
+        "RelativeCollectionDrawableId": 2
+      },
+      {
+        "DrawableName": "Armor",
+        "TextureName": "mp_m_freemode_01_mp_m_genericpolice5^task_diff_000_h_uni",
+        "NameHash": "CLO_DCT_ARMOR_2_7_M",
+        "ComponentType": "PV_COMP_TASK",
+        "ComponentId": 9,
+        "DrawableId": 64,
+        "TextureId": 7,
+        "RelativeCollectionDrawableId": 2
+      },
+      {
+        "DrawableName": "Armor",
+        "TextureName": "mp_m_freemode_01_mp_m_genericpolice5^task_diff_000_i_uni",
+        "NameHash": "CLO_DCT_ARMOR_2_8_M",
+        "ComponentType": "PV_COMP_TASK",
+        "ComponentId": 9,
+        "DrawableId": 64,
+        "TextureId": 8,
+        "RelativeCollectionDrawableId": 2
+      },
+      {
+        "DrawableName": "Armor",
+        "TextureName": "mp_m_freemode_01_mp_m_genericpolice6^task_diff_000_a_uni",
+        "NameHash": "CLO_DCT_ARMOR_3_0_M",
+        "ComponentType": "PV_COMP_TASK",
+        "ComponentId": 9,
+        "DrawableId": 65,
+        "TextureId": 0,
+        "RelativeCollectionDrawableId": 3
+      },
+      {
+        "DrawableName": "Armor",
+        "TextureName": "mp_m_freemode_01_mp_m_genericpolice6^task_diff_000_b_uni",
+        "NameHash": "CLO_DCT_ARMOR_3_1_M",
+        "ComponentType": "PV_COMP_TASK",
+        "ComponentId": 9,
+        "DrawableId": 65,
+        "TextureId": 1,
+        "RelativeCollectionDrawableId": 3
+      },
+      {
+        "DrawableName": "Armor",
+        "TextureName": "mp_m_freemode_01_mp_m_genericpolice6^task_diff_000_c_uni",
+        "NameHash": "CLO_DCT_ARMOR_3_2_M",
+        "ComponentType": "PV_COMP_TASK",
+        "ComponentId": 9,
+        "DrawableId": 65,
+        "TextureId": 2,
+        "RelativeCollectionDrawableId": 3
+      },
+      {
+        "DrawableName": "Armor",
+        "TextureName": "mp_m_freemode_01_mp_m_genericpolice6^task_diff_000_d_uni",
+        "NameHash": "CLO_DCT_ARMOR_3_3_M",
+        "ComponentType": "PV_COMP_TASK",
+        "ComponentId": 9,
+        "DrawableId": 65,
+        "TextureId": 3,
+        "RelativeCollectionDrawableId": 3
+      },
+      {
+        "DrawableName": "Armor",
+        "TextureName": "mp_m_freemode_01_mp_m_genericpolice6^task_diff_000_e_uni",
+        "NameHash": "CLO_DCT_ARMOR_3_4_M",
+        "ComponentType": "PV_COMP_TASK",
+        "ComponentId": 9,
+        "DrawableId": 65,
+        "TextureId": 4,
+        "RelativeCollectionDrawableId": 3
+      },
+      {
+        "DrawableName": "Armor",
+        "TextureName": "mp_m_freemode_01_mp_m_genericpolice6^task_diff_000_f_uni",
+        "NameHash": "CLO_DCT_ARMOR_3_5_M",
+        "ComponentType": "PV_COMP_TASK",
+        "ComponentId": 9,
+        "DrawableId": 65,
+        "TextureId": 5,
+        "RelativeCollectionDrawableId": 3
+      },
+      {
+        "DrawableName": "Armor",
+        "TextureName": "mp_m_freemode_01_mp_m_genericpolice6^task_diff_000_g_uni",
+        "NameHash": "CLO_DCT_ARMOR_3_6_M",
+        "ComponentType": "PV_COMP_TASK",
+        "ComponentId": 9,
+        "DrawableId": 65,
+        "TextureId": 6,
+        "RelativeCollectionDrawableId": 3
+      },
+      {
+        "DrawableName": "Armor",
+        "TextureName": "mp_m_freemode_01_mp_m_genericpolice6^task_diff_000_h_uni",
+        "NameHash": "CLO_DCT_ARMOR_3_7_M",
+        "ComponentType": "PV_COMP_TASK",
+        "ComponentId": 9,
+        "DrawableId": 65,
+        "TextureId": 7,
+        "RelativeCollectionDrawableId": 3
+      },
+      {
+        "DrawableName": "Armor",
+        "TextureName": "mp_m_freemode_01_mp_m_genericpolice6^task_diff_000_i_uni",
+        "NameHash": "CLO_DCT_ARMOR_3_8_M",
+        "ComponentType": "PV_COMP_TASK",
+        "ComponentId": 9,
+        "DrawableId": 65,
+        "TextureId": 8,
+        "RelativeCollectionDrawableId": 3
+      },
+      {
+        "DrawableName": "Armor",
+        "TextureName": "mp_m_freemode_01_mp_m_genericpolice7^task_diff_000_a_uni",
+        "NameHash": "CLO_DCT_ARMOR_4_0_M",
+        "ComponentType": "PV_COMP_TASK",
+        "ComponentId": 9,
+        "DrawableId": 66,
+        "TextureId": 0,
+        "RelativeCollectionDrawableId": 4
+      },
+      {
+        "DrawableName": "Armor",
+        "TextureName": "mp_m_freemode_01_mp_m_genericpolice7^task_diff_000_b_uni",
+        "NameHash": "CLO_DCT_ARMOR_4_1_M",
+        "ComponentType": "PV_COMP_TASK",
+        "ComponentId": 9,
+        "DrawableId": 66,
+        "TextureId": 1,
+        "RelativeCollectionDrawableId": 4
+      },
+      {
+        "DrawableName": "Armor",
+        "TextureName": "mp_m_freemode_01_mp_m_genericpolice7^task_diff_000_c_uni",
+        "NameHash": "CLO_DCT_ARMOR_4_2_M",
+        "ComponentType": "PV_COMP_TASK",
+        "ComponentId": 9,
+        "DrawableId": 66,
+        "TextureId": 2,
+        "RelativeCollectionDrawableId": 4
+      },
+      {
+        "DrawableName": "Armor",
+        "TextureName": "mp_m_freemode_01_mp_m_genericpolice7^task_diff_000_d_uni",
+        "NameHash": "CLO_DCT_ARMOR_4_3_M",
+        "ComponentType": "PV_COMP_TASK",
+        "ComponentId": 9,
+        "DrawableId": 66,
+        "TextureId": 3,
+        "RelativeCollectionDrawableId": 4
+      },
+      {
+        "DrawableName": "Armor",
+        "TextureName": "mp_m_freemode_01_mp_m_genericpolice7^task_diff_000_e_uni",
+        "NameHash": "CLO_DCT_ARMOR_4_4_M",
+        "ComponentType": "PV_COMP_TASK",
+        "ComponentId": 9,
+        "DrawableId": 66,
+        "TextureId": 4,
+        "RelativeCollectionDrawableId": 4
+      },
+      {
+        "DrawableName": "Armor",
+        "TextureName": "mp_m_freemode_01_mp_m_genericpolice7^task_diff_000_f_uni",
+        "NameHash": "CLO_DCT_ARMOR_4_5_M",
+        "ComponentType": "PV_COMP_TASK",
+        "ComponentId": 9,
+        "DrawableId": 66,
+        "TextureId": 5,
+        "RelativeCollectionDrawableId": 4
+      },
+      {
+        "DrawableName": "Armor",
+        "TextureName": "mp_m_freemode_01_mp_m_genericpolice7^task_diff_000_g_uni",
+        "NameHash": "CLO_DCT_ARMOR_4_6_M",
+        "ComponentType": "PV_COMP_TASK",
+        "ComponentId": 9,
+        "DrawableId": 66,
+        "TextureId": 6,
+        "RelativeCollectionDrawableId": 4
+      },
+      {
+        "DrawableName": "Armor",
+        "TextureName": "mp_m_freemode_01_mp_m_genericpolice7^task_diff_000_h_uni",
+        "NameHash": "CLO_DCT_ARMOR_4_7_M",
+        "ComponentType": "PV_COMP_TASK",
+        "ComponentId": 9,
+        "DrawableId": 66,
+        "TextureId": 7,
+        "RelativeCollectionDrawableId": 4
+      },
+      {
+        "DrawableName": "Armor",
+        "TextureName": "mp_m_freemode_01_mp_m_genericpolice7^task_diff_000_i_uni",
+        "NameHash": "CLO_DCT_ARMOR_4_8_M",
+        "ComponentType": "PV_COMP_TASK",
+        "ComponentId": 9,
+        "DrawableId": 66,
+        "TextureId": 8,
+        "RelativeCollectionDrawableId": 4
+      }
+    ],
+    "Props": []
+  },
+  {
+    "DlcCollectionName": "mp_f_smspolicemonthly2",
+    "PedName": "mp_f_freemode_01",
+    "ComponentVariations": [
+      {
+        "DrawableName": "Armor",
+        "TextureName": "mp_f_freemode_01_mp_f_genericpolice3^task_diff_000_a_uni",
+        "NameHash": "CLO_DCT_ARMOR_0_0_F",
+        "ComponentType": "PV_COMP_TASK",
+        "ComponentId": 9,
+        "DrawableId": 62,
+        "TextureId": 0,
+        "RelativeCollectionDrawableId": 0
+      },
+      {
+        "DrawableName": "Armor",
+        "TextureName": "mp_f_freemode_01_mp_f_genericpolice3^task_diff_000_b_uni",
+        "NameHash": "CLO_DCT_ARMOR_0_1_F",
+        "ComponentType": "PV_COMP_TASK",
+        "ComponentId": 9,
+        "DrawableId": 62,
+        "TextureId": 1,
+        "RelativeCollectionDrawableId": 0
+      },
+      {
+        "DrawableName": "Armor",
+        "TextureName": "mp_f_freemode_01_mp_f_genericpolice3^task_diff_000_c_uni",
+        "NameHash": "CLO_DCT_ARMOR_0_2_F",
+        "ComponentType": "PV_COMP_TASK",
+        "ComponentId": 9,
+        "DrawableId": 62,
+        "TextureId": 2,
+        "RelativeCollectionDrawableId": 0
+      },
+      {
+        "DrawableName": "Armor",
+        "TextureName": "mp_f_freemode_01_mp_f_genericpolice3^task_diff_000_d_uni",
+        "NameHash": "CLO_DCT_ARMOR_0_3_F",
+        "ComponentType": "PV_COMP_TASK",
+        "ComponentId": 9,
+        "DrawableId": 62,
+        "TextureId": 3,
+        "RelativeCollectionDrawableId": 0
+      },
+      {
+        "DrawableName": "Armor",
+        "TextureName": "mp_f_freemode_01_mp_f_genericpolice3^task_diff_000_e_uni",
+        "NameHash": "CLO_DCT_ARMOR_0_4_F",
+        "ComponentType": "PV_COMP_TASK",
+        "ComponentId": 9,
+        "DrawableId": 62,
+        "TextureId": 4,
+        "RelativeCollectionDrawableId": 0
+      },
+      {
+        "DrawableName": "Armor",
+        "TextureName": "mp_f_freemode_01_mp_f_genericpolice3^task_diff_000_f_uni",
+        "NameHash": "CLO_DCT_ARMOR_0_5_F",
+        "ComponentType": "PV_COMP_TASK",
+        "ComponentId": 9,
+        "DrawableId": 62,
+        "TextureId": 5,
+        "RelativeCollectionDrawableId": 0
+      },
+      {
+        "DrawableName": "Armor",
+        "TextureName": "mp_f_freemode_01_mp_f_genericpolice3^task_diff_000_g_uni",
+        "NameHash": "CLO_DCT_ARMOR_0_6_F",
+        "ComponentType": "PV_COMP_TASK",
+        "ComponentId": 9,
+        "DrawableId": 62,
+        "TextureId": 6,
+        "RelativeCollectionDrawableId": 0
+      },
+      {
+        "DrawableName": "Armor",
+        "TextureName": "mp_f_freemode_01_mp_f_genericpolice3^task_diff_000_h_uni",
+        "NameHash": "CLO_DCT_ARMOR_0_7_F",
+        "ComponentType": "PV_COMP_TASK",
+        "ComponentId": 9,
+        "DrawableId": 62,
+        "TextureId": 7,
+        "RelativeCollectionDrawableId": 0
+      },
+      {
+        "DrawableName": "Armor",
+        "TextureName": "mp_f_freemode_01_mp_f_genericpolice3^task_diff_000_i_uni",
+        "NameHash": "CLO_DCT_ARMOR_0_8_F",
+        "ComponentType": "PV_COMP_TASK",
+        "ComponentId": 9,
+        "DrawableId": 62,
+        "TextureId": 8,
+        "RelativeCollectionDrawableId": 0
+      },
+      {
+        "DrawableName": "Armor",
+        "TextureName": "mp_f_freemode_01_mp_f_genericpolice4^task_diff_000_a_uni",
+        "NameHash": "CLO_DCT_ARMOR_1_0_F",
+        "ComponentType": "PV_COMP_TASK",
+        "ComponentId": 9,
+        "DrawableId": 63,
+        "TextureId": 0,
+        "RelativeCollectionDrawableId": 1
+      },
+      {
+        "DrawableName": "Armor",
+        "TextureName": "mp_f_freemode_01_mp_f_genericpolice4^task_diff_000_b_uni",
+        "NameHash": "CLO_DCT_ARMOR_1_1_F",
+        "ComponentType": "PV_COMP_TASK",
+        "ComponentId": 9,
+        "DrawableId": 63,
+        "TextureId": 1,
+        "RelativeCollectionDrawableId": 1
+      },
+      {
+        "DrawableName": "Armor",
+        "TextureName": "mp_f_freemode_01_mp_f_genericpolice4^task_diff_000_c_uni",
+        "NameHash": "CLO_DCT_ARMOR_1_2_F",
+        "ComponentType": "PV_COMP_TASK",
+        "ComponentId": 9,
+        "DrawableId": 63,
+        "TextureId": 2,
+        "RelativeCollectionDrawableId": 1
+      },
+      {
+        "DrawableName": "Armor",
+        "TextureName": "mp_f_freemode_01_mp_f_genericpolice4^task_diff_000_d_uni",
+        "NameHash": "CLO_DCT_ARMOR_1_3_F",
+        "ComponentType": "PV_COMP_TASK",
+        "ComponentId": 9,
+        "DrawableId": 63,
+        "TextureId": 3,
+        "RelativeCollectionDrawableId": 1
+      },
+      {
+        "DrawableName": "Armor",
+        "TextureName": "mp_f_freemode_01_mp_f_genericpolice4^task_diff_000_e_uni",
+        "NameHash": "CLO_DCT_ARMOR_1_4_F",
+        "ComponentType": "PV_COMP_TASK",
+        "ComponentId": 9,
+        "DrawableId": 63,
+        "TextureId": 4,
+        "RelativeCollectionDrawableId": 1
+      },
+      {
+        "DrawableName": "Armor",
+        "TextureName": "mp_f_freemode_01_mp_f_genericpolice4^task_diff_000_f_uni",
+        "NameHash": "CLO_DCT_ARMOR_1_5_F",
+        "ComponentType": "PV_COMP_TASK",
+        "ComponentId": 9,
+        "DrawableId": 63,
+        "TextureId": 5,
+        "RelativeCollectionDrawableId": 1
+      },
+      {
+        "DrawableName": "Armor",
+        "TextureName": "mp_f_freemode_01_mp_f_genericpolice4^task_diff_000_g_uni",
+        "NameHash": "CLO_DCT_ARMOR_1_6_F",
+        "ComponentType": "PV_COMP_TASK",
+        "ComponentId": 9,
+        "DrawableId": 63,
+        "TextureId": 6,
+        "RelativeCollectionDrawableId": 1
+      },
+      {
+        "DrawableName": "Armor",
+        "TextureName": "mp_f_freemode_01_mp_f_genericpolice4^task_diff_000_h_uni",
+        "NameHash": "CLO_DCT_ARMOR_1_7_F",
+        "ComponentType": "PV_COMP_TASK",
+        "ComponentId": 9,
+        "DrawableId": 63,
+        "TextureId": 7,
+        "RelativeCollectionDrawableId": 1
+      },
+      {
+        "DrawableName": "Armor",
+        "TextureName": "mp_f_freemode_01_mp_f_genericpolice4^task_diff_000_i_uni",
+        "NameHash": "CLO_DCT_ARMOR_1_8_F",
+        "ComponentType": "PV_COMP_TASK",
+        "ComponentId": 9,
+        "DrawableId": 63,
+        "TextureId": 8,
+        "RelativeCollectionDrawableId": 1
+      },
+      {
+        "DrawableName": "Armor",
+        "TextureName": "mp_f_freemode_01_mp_f_genericpolice5^task_diff_000_a_uni",
+        "NameHash": "CLO_DCT_ARMOR_2_0_F",
+        "ComponentType": "PV_COMP_TASK",
+        "ComponentId": 9,
+        "DrawableId": 64,
+        "TextureId": 0,
+        "RelativeCollectionDrawableId": 2
+      },
+      {
+        "DrawableName": "Armor",
+        "TextureName": "mp_f_freemode_01_mp_f_genericpolice5^task_diff_000_b_uni",
+        "NameHash": "CLO_DCT_ARMOR_2_1_F",
+        "ComponentType": "PV_COMP_TASK",
+        "ComponentId": 9,
+        "DrawableId": 64,
+        "TextureId": 1,
+        "RelativeCollectionDrawableId": 2
+      },
+      {
+        "DrawableName": "Armor",
+        "TextureName": "mp_f_freemode_01_mp_f_genericpolice5^task_diff_000_c_uni",
+        "NameHash": "CLO_DCT_ARMOR_2_2_F",
+        "ComponentType": "PV_COMP_TASK",
+        "ComponentId": 9,
+        "DrawableId": 64,
+        "TextureId": 2,
+        "RelativeCollectionDrawableId": 2
+      },
+      {
+        "DrawableName": "Armor",
+        "TextureName": "mp_f_freemode_01_mp_f_genericpolice5^task_diff_000_d_uni",
+        "NameHash": "CLO_DCT_ARMOR_2_3_F",
+        "ComponentType": "PV_COMP_TASK",
+        "ComponentId": 9,
+        "DrawableId": 64,
+        "TextureId": 3,
+        "RelativeCollectionDrawableId": 2
+      },
+      {
+        "DrawableName": "Armor",
+        "TextureName": "mp_f_freemode_01_mp_f_genericpolice5^task_diff_000_e_uni",
+        "NameHash": "CLO_DCT_ARMOR_2_4_F",
+        "ComponentType": "PV_COMP_TASK",
+        "ComponentId": 9,
+        "DrawableId": 64,
+        "TextureId": 4,
+        "RelativeCollectionDrawableId": 2
+      },
+      {
+        "DrawableName": "Armor",
+        "TextureName": "mp_f_freemode_01_mp_f_genericpolice5^task_diff_000_f_uni",
+        "NameHash": "CLO_DCT_ARMOR_2_5_F",
+        "ComponentType": "PV_COMP_TASK",
+        "ComponentId": 9,
+        "DrawableId": 64,
+        "TextureId": 5,
+        "RelativeCollectionDrawableId": 2
+      },
+      {
+        "DrawableName": "Armor",
+        "TextureName": "mp_f_freemode_01_mp_f_genericpolice5^task_diff_000_g_uni",
+        "NameHash": "CLO_DCT_ARMOR_2_6_F",
+        "ComponentType": "PV_COMP_TASK",
+        "ComponentId": 9,
+        "DrawableId": 64,
+        "TextureId": 6,
+        "RelativeCollectionDrawableId": 2
+      },
+      {
+        "DrawableName": "Armor",
+        "TextureName": "mp_f_freemode_01_mp_f_genericpolice5^task_diff_000_h_uni",
+        "NameHash": "CLO_DCT_ARMOR_2_7_F",
+        "ComponentType": "PV_COMP_TASK",
+        "ComponentId": 9,
+        "DrawableId": 64,
+        "TextureId": 7,
+        "RelativeCollectionDrawableId": 2
+      },
+      {
+        "DrawableName": "Armor",
+        "TextureName": "mp_f_freemode_01_mp_f_genericpolice5^task_diff_000_i_uni",
+        "NameHash": "CLO_DCT_ARMOR_2_8_F",
+        "ComponentType": "PV_COMP_TASK",
+        "ComponentId": 9,
+        "DrawableId": 64,
+        "TextureId": 8,
+        "RelativeCollectionDrawableId": 2
+      },
+      {
+        "DrawableName": "Armor",
+        "TextureName": "mp_f_freemode_01_mp_f_genericpolice6^task_diff_000_a_uni",
+        "NameHash": "CLO_DCT_ARMOR_3_0_F",
+        "ComponentType": "PV_COMP_TASK",
+        "ComponentId": 9,
+        "DrawableId": 65,
+        "TextureId": 0,
+        "RelativeCollectionDrawableId": 3
+      },
+      {
+        "DrawableName": "Armor",
+        "TextureName": "mp_f_freemode_01_mp_f_genericpolice6^task_diff_000_b_uni",
+        "NameHash": "CLO_DCT_ARMOR_3_1_F",
+        "ComponentType": "PV_COMP_TASK",
+        "ComponentId": 9,
+        "DrawableId": 65,
+        "TextureId": 1,
+        "RelativeCollectionDrawableId": 3
+      },
+      {
+        "DrawableName": "Armor",
+        "TextureName": "mp_f_freemode_01_mp_f_genericpolice6^task_diff_000_c_uni",
+        "NameHash": "CLO_DCT_ARMOR_3_2_F",
+        "ComponentType": "PV_COMP_TASK",
+        "ComponentId": 9,
+        "DrawableId": 65,
+        "TextureId": 2,
+        "RelativeCollectionDrawableId": 3
+      },
+      {
+        "DrawableName": "Armor",
+        "TextureName": "mp_f_freemode_01_mp_f_genericpolice6^task_diff_000_d_uni",
+        "NameHash": "CLO_DCT_ARMOR_3_3_F",
+        "ComponentType": "PV_COMP_TASK",
+        "ComponentId": 9,
+        "DrawableId": 65,
+        "TextureId": 3,
+        "RelativeCollectionDrawableId": 3
+      },
+      {
+        "DrawableName": "Armor",
+        "TextureName": "mp_f_freemode_01_mp_f_genericpolice6^task_diff_000_e_uni",
+        "NameHash": "CLO_DCT_ARMOR_3_4_F",
+        "ComponentType": "PV_COMP_TASK",
+        "ComponentId": 9,
+        "DrawableId": 65,
+        "TextureId": 4,
+        "RelativeCollectionDrawableId": 3
+      },
+      {
+        "DrawableName": "Armor",
+        "TextureName": "mp_f_freemode_01_mp_f_genericpolice6^task_diff_000_f_uni",
+        "NameHash": "CLO_DCT_ARMOR_3_5_F",
+        "ComponentType": "PV_COMP_TASK",
+        "ComponentId": 9,
+        "DrawableId": 65,
+        "TextureId": 5,
+        "RelativeCollectionDrawableId": 3
+      },
+      {
+        "DrawableName": "Armor",
+        "TextureName": "mp_f_freemode_01_mp_f_genericpolice6^task_diff_000_g_uni",
+        "NameHash": "CLO_DCT_ARMOR_3_6_F",
+        "ComponentType": "PV_COMP_TASK",
+        "ComponentId": 9,
+        "DrawableId": 65,
+        "TextureId": 6,
+        "RelativeCollectionDrawableId": 3
+      },
+      {
+        "DrawableName": "Armor",
+        "TextureName": "mp_f_freemode_01_mp_f_genericpolice6^task_diff_000_h_uni",
+        "NameHash": "CLO_DCT_ARMOR_3_7_F",
+        "ComponentType": "PV_COMP_TASK",
+        "ComponentId": 9,
+        "DrawableId": 65,
+        "TextureId": 7,
+        "RelativeCollectionDrawableId": 3
+      },
+      {
+        "DrawableName": "Armor",
+        "TextureName": "mp_f_freemode_01_mp_f_genericpolice6^task_diff_000_i_uni",
+        "NameHash": "CLO_DCT_ARMOR_3_8_F",
+        "ComponentType": "PV_COMP_TASK",
+        "ComponentId": 9,
+        "DrawableId": 65,
+        "TextureId": 8,
+        "RelativeCollectionDrawableId": 3
+      },
+      {
+        "DrawableName": "Armor",
+        "TextureName": "mp_f_freemode_01_mp_f_genericpolice7^task_diff_000_a_uni",
+        "NameHash": "CLO_DCT_ARMOR_4_0_F",
+        "ComponentType": "PV_COMP_TASK",
+        "ComponentId": 9,
+        "DrawableId": 66,
+        "TextureId": 0,
+        "RelativeCollectionDrawableId": 4
+      },
+      {
+        "DrawableName": "Armor",
+        "TextureName": "mp_f_freemode_01_mp_f_genericpolice7^task_diff_000_b_uni",
+        "NameHash": "CLO_DCT_ARMOR_4_1_F",
+        "ComponentType": "PV_COMP_TASK",
+        "ComponentId": 9,
+        "DrawableId": 66,
+        "TextureId": 1,
+        "RelativeCollectionDrawableId": 4
+      },
+      {
+        "DrawableName": "Armor",
+        "TextureName": "mp_f_freemode_01_mp_f_genericpolice7^task_diff_000_c_uni",
+        "NameHash": "CLO_DCT_ARMOR_4_2_F",
+        "ComponentType": "PV_COMP_TASK",
+        "ComponentId": 9,
+        "DrawableId": 66,
+        "TextureId": 2,
+        "RelativeCollectionDrawableId": 4
+      },
+      {
+        "DrawableName": "Armor",
+        "TextureName": "mp_f_freemode_01_mp_f_genericpolice7^task_diff_000_d_uni",
+        "NameHash": "CLO_DCT_ARMOR_4_3_F",
+        "ComponentType": "PV_COMP_TASK",
+        "ComponentId": 9,
+        "DrawableId": 66,
+        "TextureId": 3,
+        "RelativeCollectionDrawableId": 4
+      },
+      {
+        "DrawableName": "Armor",
+        "TextureName": "mp_f_freemode_01_mp_f_genericpolice7^task_diff_000_e_uni",
+        "NameHash": "CLO_DCT_ARMOR_4_4_F",
+        "ComponentType": "PV_COMP_TASK",
+        "ComponentId": 9,
+        "DrawableId": 66,
+        "TextureId": 4,
+        "RelativeCollectionDrawableId": 4
+      },
+      {
+        "DrawableName": "Armor",
+        "TextureName": "mp_f_freemode_01_mp_f_genericpolice7^task_diff_000_f_uni",
+        "NameHash": "CLO_DCT_ARMOR_4_5_F",
+        "ComponentType": "PV_COMP_TASK",
+        "ComponentId": 9,
+        "DrawableId": 66,
+        "TextureId": 5,
+        "RelativeCollectionDrawableId": 4
+      },
+      {
+        "DrawableName": "Armor",
+        "TextureName": "mp_f_freemode_01_mp_f_genericpolice7^task_diff_000_g_uni",
+        "NameHash": "CLO_DCT_ARMOR_4_6_F",
+        "ComponentType": "PV_COMP_TASK",
+        "ComponentId": 9,
+        "DrawableId": 66,
+        "TextureId": 6,
+        "RelativeCollectionDrawableId": 4
+      },
+      {
+        "DrawableName": "Armor",
+        "TextureName": "mp_f_freemode_01_mp_f_genericpolice7^task_diff_000_h_uni",
+        "NameHash": "CLO_DCT_ARMOR_4_7_F",
+        "ComponentType": "PV_COMP_TASK",
+        "ComponentId": 9,
+        "DrawableId": 66,
+        "TextureId": 7,
+        "RelativeCollectionDrawableId": 4
+      },
+      {
+        "DrawableName": "Armor",
+        "TextureName": "mp_f_freemode_01_mp_f_genericpolice7^task_diff_000_i_uni",
+        "NameHash": "CLO_DCT_ARMOR_4_8_F",
+        "ComponentType": "PV_COMP_TASK",
+        "ComponentId": 9,
+        "DrawableId": 66,
+        "TextureId": 8,
+        "RelativeCollectionDrawableId": 4
+      }
+    ],
+    "Props": []
+  }
+]
